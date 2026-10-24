@@ -1,0 +1,17 @@
+{
+  "name": "DishaYaaN",
+  "short_name": "DishaYaaN",
+  "description": "DishaYaaN helps students of Class 6\u201312 explore emerging technology, prepare for JEE, NEET, NDA, CS and CMA, and build real projects with human mentors. Your future is bigger than your syllabus.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1eb2a6",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,3367 @@
+{
+ "nav_primary_old": [
+  {
+   "label": "Home",
+   "to": "/"
+  },
+  {
+   "label": "Catalogue",
+   "to": "/catalog"
+  },
+  {
+   "label": "Mentors",
+   "to": "/mentors"
+  },
+  {
+   "label": "Community",
+   "to": "/community"
+  },
+  {
+   "label": "Plans",
+   "to": "/plans"
+  }
+ ],
+ "nav_secondary_old": [
+  {
+   "label": "Book a one-to-one session",
+   "to": "/book"
+  },
+  {
+   "label": "Path Finder",
+   "to": "/pathfinder"
+  },
+  {
+   "label": "About Us",
+   "to": "/about"
+  },
+  {
+   "label": "For schools & centres",
+   "to": "/partners"
+  }
+ ],
+ "journey_steps": [
+  {
+   "id": "01",
+   "title": "Discover",
+   "body": "A short Path Finder conversation about interests, subjects and what you actually enjoy doing after school hours."
+  },
+  {
+   "id": "02",
+   "title": "Diagnose",
+   "body": "We check where you genuinely are — concepts, habits, accuracy and time available each week."
+  },
+  {
+   "id": "03",
+   "title": "Match",
+   "body": "You are matched with a mentor seat in the right domain, language and schedule slot."
+  },
+  {
+   "id": "04",
+   "title": "Learn",
+   "body": "A structured path with weekly sessions, concept support and revision systems you can sustain."
+  },
+  {
+   "id": "05",
+   "title": "Build",
+   "body": "Every learner ships projects. Robotics rigs, AI models, drone missions, research notes or market studies."
+  },
+  {
+   "id": "06",
+   "title": "Achieve",
+   "body": "Progress is reviewed against the goal charter, the roadmap updates, and parents see the same picture."
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is DishaYaaN a coaching institute?",
+   "a": "No. DishaYaaN is a mentorship and future-readiness platform. Exam preparation is one layer of it; exploration, projects, career discovery and human mentorship sit alongside it."
+  },
+  {
+   "q": "Which classes do you work with?",
+   "a": "Students from Class 6 to Class 12. Exploration tracks start from Class 6, technology labs from around Class 7–8, and exam pathways from Class 9 upwards."
+  },
+  {
+   "q": "What exactly can my child explore in v1?",
+   "a": "Artificial Intelligence and Machine Learning, Robotics, Drone Technology, Computer Science, Stock Market & Trading, plus Biotechnology, Physics, Engineering, Research and Entrepreneurship exploration tracks."
+  },
+  {
+   "q": "Does the Path Finder predict my future?",
+   "a": "It does not, and we will never claim that. It is an exploration tool: it shows which areas you may enjoy exploring next and gives a mentor something concrete to talk with you about."
+  },
+  {
+   "q": "How does the AI assistant relate to a real mentor?",
+   "a": "DishaYaaN AI helps you explore quickly and asks the right context questions. It never replaces a human mentor — every AI conversation ends with an option to talk to a person."
+  },
+  {
+   "q": "What do parents actually get to see?",
+   "a": "A progress view covering sessions attended, projects in flight, mentor feedback, skills being built and the next recommended step. Parents see the same roadmap the student does."
+  },
+  {
+   "q": "How does payment work?",
+   "a": "Plans are billed monthly, with a one-time option for the twelve-week Goal Sprint. You pay online from the Plans page and receive a receipt; nothing is charged without your knowledge."
+  },
+  {
+   "q": "How do bookings and scheduling work?",
+   "a": "Pick a domain, a format and a slot on the booking page. The request lands with the mentor-matching team, you get a confirmation on WhatsApp, and the session appears in your dashboard with everything the mentor already knows about you."
+  },
+  {
+   "q": "Can students publish their own work?",
+   "a": "Yes. Every learner can post an update, upload a file or an image, and comment on other students' posts in the community area. Posts are visible to the DishaYaaN community and to mentors."
+  },
+  {
+   "q": "Who can see my work and my conversations?",
+   "a": "Your posts are visible to the community and to mentors. Your private sessions, bookings and payment records are visible only to you, your mentor and the DishaYaaN team."
+  },
+  {
+   "q": "We are a school or coaching centre. Can we partner?",
+   "a": "Yes. DishaYaaN runs alongside institutions as an add-on lab, a mentor pool or a future-readiness programme. Send a requirement through the partnership form and we will scope it with you."
+  },
+  {
+   "q": "What if the plan is not right for us?",
+   "a": "Tell us inside the first seven days and we will refund the current period. We would rather fix the mismatch than keep a fee that is not earning its place."
+  }
+ ],
+ "institution_types": [
+  {
+   "id": "schools",
+   "name": "Schools",
+   "line": "Add future-readiness without adding timetable pressure.",
+   "detail": "AI, robotics, drone and financial-literacy labs delivered inside your school calendar, with mentors provided by DishaYaaN and progress reported to your academic team.",
+   "icon": "school",
+   "accent": "blue"
+  },
+  {
+   "id": "colleges",
+   "name": "Colleges & Universities",
+   "line": "Bridge the gap between syllabus and industry practice.",
+   "detail": "Project-based cohorts, industry mentor pools and research-readiness modules for undergraduate and pre-final year students.",
+   "icon": "graduation-cap",
+   "accent": "violet"
+  },
+  {
+   "id": "coaching",
+   "name": "Coaching Centres",
+   "line": "Keep your academic strength. Add the missing future layer.",
+   "detail": "Your faculty handle the exam pedagogy; DishaYaaN adds exploration tracks, project labs and mentor matching on top of what you already run.",
+   "icon": "building",
+   "accent": "cyan"
+  },
+  {
+   "id": "ngos",
+   "name": "NGOs & Community Labs",
+   "line": "Reach students who have ambition but not exposure.",
+   "detail": "Sponsored seats, low-bandwidth delivery and mentor time donated by the DishaYaaN network for students in government and aided schools.",
+   "icon": "heart-handshake",
+   "accent": "green"
+  }
+ ],
+ "project_examples": [
+  {
+   "id": "proj-1",
+   "title": "Sign-language letter recogniser",
+   "student": "Example student project",
+   "studentClass": "Class 10",
+   "problem": "A student wanted a way for their younger sibling to practise sign-language letters without a teacher present.",
+   "solution": "A camera-based classifier that recognises hand shapes and shows the letter with a confidence score.",
+   "stack": [
+    "Python",
+    "Computer vision",
+    "Model training"
+   ],
+   "mentor": "Applied AI & Machine Learning Mentor",
+   "learned": "Data quality matters more than model choice — the first dataset was unusable.",
+   "accent": "blue",
+   "isExample": true
+  },
+  {
+   "id": "proj-2",
+   "title": "Line-following rover with sensor fusion",
+   "student": "Example student project",
+   "studentClass": "Class 9",
+   "problem": "A rover kept losing the track on curves because a single sensor was not enough.",
+   "solution": "Three sensors combined with a weighted control rule, tuned with a mentor over four sessions.",
+   "stack": [
+    "Arduino",
+    "IR sensors",
+    "Control logic"
+   ],
+   "mentor": "Robotics & Embedded Systems Mentor",
+   "learned": "Debugging is a method, not luck. The build log showed exactly where it drifted.",
+   "accent": "violet",
+   "isExample": true
+  },
+  {
+   "id": "proj-3",
+   "title": "Village mapping flight plan",
+   "student": "Example student project",
+   "studentClass": "Class 11",
+   "problem": "A student wanted to understand how aerial surveys are actually planned for real terrain.",
+   "solution": "A simulated mapping mission with waypoints, altitude bands, overlap percentage and a safety checklist.",
+   "stack": [
+    "Flight simulation",
+    "Mission planning",
+    "Regulation research"
+   ],
+   "mentor": "Drone Technology & Flight Systems Mentor",
+   "learned": "Regulation and safety come before flying — and they are part of the engineering.",
+   "accent": "cyan",
+   "isExample": true
+  },
+  {
+   "id": "proj-4",
+   "title": "A paper-trading portfolio with a written thesis",
+   "student": "Example student project",
+   "studentClass": "Class 12",
+   "problem": "A student was interested in markets but had no process beyond looking at price movement.",
+   "solution": "A five-stock paper portfolio with research notes, position sizing rules and a weekly review sheet.",
+   "stack": [
+    "Financial statements",
+    "Risk rules",
+    "Spreadsheets"
+   ],
+   "mentor": "Markets, Trading & Financial Literacy Mentor",
+   "learned": "Writing down why you bought something is the whole discipline.",
+   "accent": "green",
+   "isExample": true
+  }
+ ],
+ "voices_placeholders": [
+  {
+   "quote": "Parent testimonials publish here after the first cohort completes a full term and gives written consent to being quoted.",
+   "author": "Parent story coming soon",
+   "context": "First DishaYaaN cohort in progress",
+   "placeholder": true
+  },
+  {
+   "quote": "Student stories publish here after the first cohort completes a full term and consents to being quoted.",
+   "author": "Student story coming soon",
+   "context": "First DishaYaaN cohort in progress",
+   "placeholder": true
+  },
+  {
+   "quote": "Mentor notes publish here once verification is complete and the mentor approves the wording.",
+   "author": "Mentor note coming soon",
+   "context": "Mentor verification in progress",
+   "placeholder": true
+  }
+ ],
+ "ai_assistant_starter_chips": [
+  "I'm confused about my career",
+  "I want to explore AI & ML",
+  "I want to learn Robotics",
+  "I want Drone Technology",
+  "I want stock market guidance",
+  "I want JEE guidance",
+  "I want NEET guidance",
+  "I'm a parent",
+  "Help me choose a plan"
+ ],
+ "ai_assistant_suggested_prompts": [
+  "Robotics starter plan for Class 8",
+  "Is AI a good fit for me?",
+  "How do I start paper trading?",
+  "JEE vs NEET planning",
+  "Drone careers in India",
+  "What should I build first?"
+ ],
+ "plans": [
+  {
+   "id": "plan-explore",
+   "slug": "explore",
+   "name": "Explore",
+   "tagline": "Start looking around properly.",
+   "bestFor": "Students beginning their journey who want to explore technology domains and understand where their interests point.",
+   "priceInr": 1499,
+   "billingPeriod": "monthly",
+   "mentorSessionsPerMonth": 1,
+   "aiCreditsPerMonth": 100,
+   "accent": "blue",
+   "features": [
+    "Full course & exam catalogue access",
+    "Guided track for one exploration domain",
+    "Monthly Path Finder re-run with a written profile",
+    "100 DishaYaaN AI credits per month",
+    "1 group mentor session every month",
+    "Project library with starter briefs"
+   ]
+  },
+  {
+   "id": "plan-mentorship",
+   "slug": "mentorship",
+   "name": "Mentorship",
+   "tagline": "A human who checks in every single week.",
+   "bestFor": "Students who need consistent personal guidance, accountability and a roadmap that adapts.",
+   "priceInr": 4999,
+   "billingPeriod": "monthly",
+   "mentorSessionsPerMonth": 4,
+   "aiCreditsPerMonth": 300,
+   "accent": "violet",
+   "popular": true,
+   "features": [
+    "Everything in Explore",
+    "4 one-to-one mentor sessions every month",
+    "Personal 90-day goal charter and weekly proof log",
+    "Matched mentor by domain, language and schedule",
+    "Parent progress dashboard access",
+    "Priority doubt clinics"
+   ]
+  },
+  {
+   "id": "plan-specialized",
+   "slug": "specialized",
+   "name": "Specialized Projects",
+   "tagline": "Build the thing you keep talking about.",
+   "bestFor": "Students going deep in AI, machine learning, robotics, drone technology or markets who want supervised builds.",
+   "priceInr": 7499,
+   "billingPeriod": "monthly",
+   "mentorSessionsPerMonth": 6,
+   "aiCreditsPerMonth": 500,
+   "accent": "cyan",
+   "features": [
+    "Everything in Mentorship",
+    "6 project-review sessions every month",
+    "Hardware or data lab support as required",
+    "Two portfolio-grade projects per term",
+    "Demo Day presentation with mentor feedback",
+    "Build log and documentation review"
+   ]
+  },
+  {
+   "id": "plan-exam",
+   "slug": "exam-preparation",
+   "name": "Exam Preparation",
+   "tagline": "A plan, a mentor and proof you are on track.",
+   "bestFor": "Students targeting JEE, NEET, NDA, CS, CMA or another competitive examination.",
+   "priceInr": 6499,
+   "billingPeriod": "monthly",
+   "mentorSessionsPerMonth": 5,
+   "aiCreditsPerMonth": 250,
+   "accent": "green",
+   "features": [
+    "Everything in Mentorship",
+    "Subject mentorship plus an exam-strategy mentor",
+    "Chapter map built to your exam calendar",
+    "Weekly mock analysis and error journal review",
+    "Concept clinics on demand",
+    "Parent visibility on progress and attendance"
+   ]
+  },
+  {
+   "id": "plan-goal-sprint",
+   "slug": "goal-sprint",
+   "name": "Goal Sprint",
+   "tagline": "One goal. Twelve weeks. Finished.",
+   "bestFor": "Students who want to prove they can finish something real before committing to a longer plan.",
+   "priceInr": 3499,
+   "billingPeriod": "project",
+   "mentorSessionsPerMonth": 3,
+   "aiCreditsPerMonth": 120,
+   "accent": "yellow",
+   "features": [
+    "Single 12-week goal charter with your mentor",
+    "3 review sessions across the sprint",
+    "Weekly proof log and milestone checks",
+    "Final demo and written reflection",
+    "₹3,499 one-time — no subscription",
+    "Upgrade credit toward any annual plan"
+   ]
+  }
+ ],
+ "mentor_seats": [
+  {
+   "id": "m-ai-01",
+   "slug": "applied-ai-ml-mentor",
+   "code": "MTR-AI-01",
+   "role": "Applied AI & Machine Learning Mentor",
+   "domain": "ai-ml",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Python",
+    "Model training",
+    "Generative AI",
+    "Data pipelines"
+   ],
+   "helpsWith": [
+    "Choosing a first AI project",
+    "Debugging models that underperform",
+    "Reading a dataset honestly"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "availability": "Weekday evenings · Weekend mornings",
+   "format": "Online 1-to-1",
+   "bio": "Guides students from 'what is a model?' to a working, explainable AI project. Expects you to bring your own idea and defends you from tutorial hopping.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-rob-01",
+   "slug": "robotics-embedded-mentor",
+   "code": "MTR-ROB-01",
+   "role": "Robotics & Embedded Systems Mentor",
+   "domain": "robotics",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Arduino",
+    "Sensors",
+    "Motor control",
+    "CAD"
+   ],
+   "helpsWith": [
+    "Picking the right first robot",
+    "Wiring and power safety",
+    "Why your bot only turns left"
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Gujarati"
+   ],
+   "availability": "Weekend afternoons",
+   "format": "Hybrid 1-to-1 or small group",
+   "bio": "Believes a student learns more from one broken circuit than ten perfect diagrams. Reviews every build log line by line.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-drone-01",
+   "slug": "drone-systems-mentor",
+   "code": "MTR-DRN-01",
+   "role": "Drone Technology & Flight Systems Mentor",
+   "domain": "drones",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Flight physics",
+    "Simulators",
+    "Telemetry",
+    "Regulation"
+   ],
+   "helpsWith": [
+    "Understanding lift, thrust and stability",
+    "Planning a safe mission",
+    "Preparing for drone-sector studies"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "availability": "Weekend mornings",
+   "format": "Online + supervised lab",
+   "bio": "Starts every student in a simulator until the theory is instinct, then moves to supervised flight with a written pre-flight checklist.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-cs-01",
+   "slug": "computer-science-mentor",
+   "code": "MTR-CS-01",
+   "role": "Computer Science & Problem Solving Mentor",
+   "domain": "computer-science",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Python",
+    "Algorithms",
+    "Data structures",
+    "Git"
+   ],
+   "helpsWith": [
+    "Learning to break down a problem",
+    "Preparing for competitive programming",
+    "Shipping a first portfolio project"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "availability": "Daily late evenings",
+   "format": "Online 1-to-1",
+   "bio": "Insists on understanding before typing. Students leave each session with one small problem to solve and prove.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-mkt-01",
+   "slug": "markets-trading-mentor",
+   "code": "MTR-MKT-01",
+   "role": "Markets, Trading & Financial Literacy Mentor",
+   "domain": "stock-market",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Financial statements",
+    "Technical charts",
+    "Risk management",
+    "Paper trading"
+   ],
+   "helpsWith": [
+    "Reading a balance sheet",
+    "Writing a research note",
+    "Avoiding the gambling trap"
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Marathi"
+   ],
+   "availability": "Weekend mornings",
+   "format": "Online cohort + 1-to-1",
+   "bio": "Teaches discipline before tactics. No tips, no signals — only process, position sizing and honest review of your own decisions.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-bio-01",
+   "slug": "life-sciences-mentor",
+   "code": "MTR-BIO-01",
+   "role": "Biotechnology & Life Sciences Mentor",
+   "domain": "biotechnology",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Genetics",
+    "Lab technique",
+    "Bioinformatics",
+    "Scientific writing"
+   ],
+   "helpsWith": [
+    "Designing a fair experiment",
+    "Preparing for NEET biology depth",
+    "Writing your first lab report"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "availability": "Weekday evenings",
+   "format": "Hybrid",
+   "bio": "Trains students to record what actually happened, not what was supposed to happen. Research integrity before results.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-phy-01",
+   "slug": "physics-jee-mentor",
+   "code": "MTR-PHY-01",
+   "role": "Physics & JEE Strategy Mentor",
+   "domain": "physics",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Mechanics",
+    "Numericals",
+    "Revision systems",
+    "Exam temperament"
+   ],
+   "helpsWith": [
+    "Building a chapter-to-calendar map",
+    "Fixing silly mistakes",
+    "Deciding when to revise versus move on"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "availability": "Weekday evenings · Weekend mornings",
+   "format": "Online 1-to-1",
+   "bio": "Rewrites study plans around evidence: your mock scores, error journal and time-on-task — never around vibes.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-exam-01",
+   "slug": "neet-strategy-mentor",
+   "code": "MTR-NEET-01",
+   "role": "NEET Biology & Accuracy Mentor",
+   "domain": "biotechnology",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "NCERT depth",
+    "Recall systems",
+    "Accuracy under time"
+   ],
+   "helpsWith": [
+    "Spaced revision that actually sticks",
+    "Cutting accuracy losses",
+    "Managing the NEET attempt calendar"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "availability": "Daily early mornings",
+   "format": "Online cohort + 1-to-1",
+   "bio": "Runs recall sets and error journals with students daily. Measures retention instead of assuming it.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-def-01",
+   "slug": "nda-defence-mentor",
+   "code": "MTR-NDA-01",
+   "role": "NDA & Defence Readiness Mentor",
+   "domain": "engineering",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Maths",
+    "General ability",
+    "Fitness rhythm",
+    "SSB interview"
+   ],
+   "helpsWith": [
+    "Holding study and fitness together",
+    "Written exam strategy",
+    "Interview and personality preparation"
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "availability": "Weekend evenings",
+   "format": "Online 1-to-1",
+   "bio": "Prepares students for the whole selection, not only the paper — routine, discipline and clarity of purpose.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  },
+  {
+   "id": "m-fin-01",
+   "slug": "commerce-professional-mentor",
+   "code": "MTR-FIN-01",
+   "role": "CS / CMA & Commerce Mentor",
+   "domain": "entrepreneurship",
+   "institution": null,
+   "status": "verifying",
+   "expertise": [
+    "Company law",
+    "Cost accounting",
+    "Answer writing",
+    "Study plans"
+   ],
+   "helpsWith": [
+    "Choosing between CS, CMA and CA routes",
+    "Building an attempt-wise plan",
+    "Writing exam-grade answers"
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Gujarati"
+   ],
+   "availability": "Weekday evenings",
+   "format": "Online 1-to-1",
+   "bio": "Maps each attempt backwards from the exam calendar so students stop studying everything and start finishing something.",
+   "videoUrl": null,
+   "videoDuration": "2 min intro"
+  }
+ ],
+ "tracks": [
+  {
+   "id": "ai-ml",
+   "name": "Artificial Intelligence & Machine Learning",
+   "short": "AI & ML",
+   "tagline": "Teach a machine to notice what humans miss.",
+   "accent": "blue",
+   "icon": "brain",
+   "summary": "Start from how a model actually learns, then build systems that see, predict and generate — with projects you can show.",
+   "skills": [
+    "Python for AI",
+    "Data handling",
+    "Model training",
+    "Prompt & API design",
+    "Evaluation & ethics"
+   ],
+   "projects": [
+    "Image classifier",
+    "Study-buddy chatbot",
+    "Recommendation engine",
+    "Prediction dashboard"
+   ],
+   "pathways": [
+    "Computer Science engineering",
+    "Data science & AI degrees",
+    "AI research internships",
+    "Applied ML roles"
+   ],
+   "classRange": "Class 6–12"
+  },
+  {
+   "id": "robotics",
+   "name": "Robotics & Embedded Systems",
+   "short": "Robotics",
+   "tagline": "Ideas become real the moment they move.",
+   "accent": "violet",
+   "icon": "bot",
+   "summary": "Sensors, motors and control logic — learn by building machines that sense the world and react to it.",
+   "skills": [
+    "Circuit basics",
+    "Microcontrollers",
+    "Sensors & actuators",
+    "Control logic",
+    "Mechanical assembly"
+   ],
+   "projects": [
+    "Robotic arm",
+    "Line-following rover",
+    "Obstacle-avoiding robot",
+    "Smart home switch"
+   ],
+   "pathways": [
+    "Mechatronics & robotics",
+    "Electronics engineering",
+    "Instrumentation",
+    "Hardware startups"
+   ],
+   "classRange": "Class 6–12"
+  },
+  {
+   "id": "drones",
+   "name": "Drone Technology & Flight Systems",
+   "short": "Drones",
+   "tagline": "Engineering that leaves the ground.",
+   "accent": "cyan",
+   "icon": "drone",
+   "summary": "From aerodynamics to autonomous flight paths — understand how unmanned systems are built, flown and regulated.",
+   "skills": [
+    "Aerodynamics",
+    "Flight controllers",
+    "Telemetry",
+    "Aerial imaging",
+    "Safety & regulation"
+   ],
+   "projects": [
+    "Flight simulation",
+    "Drone mapping mission",
+    "Payload-drop design",
+    "Aerial survey plan"
+   ],
+   "pathways": [
+    "Aerospace engineering",
+    "Avionics",
+    "Drone services & agri-tech",
+    "Defence technology"
+   ],
+   "classRange": "Class 8–12"
+  },
+  {
+   "id": "computer-science",
+   "name": "Computer Science & Programming",
+   "short": "Computer Science",
+   "tagline": "Learn to think in systems, then build them.",
+   "accent": "blue",
+   "icon": "code",
+   "summary": "Programming fundamentals, problem solving and the discipline of shipping something that works for real users.",
+   "skills": [
+    "Python",
+    "Logic & algorithms",
+    "Data structures",
+    "Web basics",
+    "Version control"
+   ],
+   "projects": [
+    "Personal web app",
+    "Quiz engine",
+    "Automation script",
+    "Data visualiser"
+   ],
+   "pathways": [
+    "B.Tech / BCA / BSc CS",
+    "Competitive programming",
+    "Open-source contribution",
+    "Product engineering"
+   ],
+   "classRange": "Class 6–12"
+  },
+  {
+   "id": "cybersecurity",
+   "name": "Cybersecurity & Ethical Hacking",
+   "short": "Cybersecurity",
+   "tagline": "Learn to defend by thinking like an attacker.",
+   "accent": "green",
+   "icon": "shield",
+   "summary": "Networking basics, ethical hacking and capture-the-flag challenges in safe, supervised labs — always with permission, always for protection.",
+   "skills": [
+    "Networking basics",
+    "Ethical hacking",
+    "Cryptography",
+    "Secure coding",
+    "Digital safety"
+   ],
+   "projects": [
+    "Home-lab network map",
+    "CTF challenge set",
+    "Password-strength study",
+    "Phishing awareness kit"
+   ],
+   "pathways": [
+    "Computer science & cybersecurity degrees",
+    "Security analyst roles",
+    "Bug-bounty & research",
+    "Digital forensics"
+   ],
+   "classRange": "Class 8–12"
+  },
+  {
+   "id": "stock-market",
+   "name": "Stock Market & Trading",
+   "short": "Stock Market",
+   "tagline": "Markets reward the patient student, not the gambler.",
+   "accent": "green",
+   "icon": "trending-up",
+   "summary": "Financial literacy first: how businesses create value, how markets price it, how to read a chart and manage risk.",
+   "skills": [
+    "Financial statements",
+    "Market mechanics",
+    "Technical charts",
+    "Risk management",
+    "Portfolio thinking"
+   ],
+   "projects": [
+    "Company research note",
+    "Paper-trading portfolio",
+    "Sector analysis",
+    "Budget & savings model"
+   ],
+   "pathways": [
+    "Commerce & BBA",
+    "CS / CMA / CA",
+    "Finance & economics degrees",
+    "Analyst roles"
+   ],
+   "classRange": "Class 8–12"
+  },
+  {
+   "id": "biotechnology",
+   "name": "Biotechnology & Life Sciences",
+   "short": "Biotechnology",
+   "tagline": "The code that writes itself is also alive.",
+   "accent": "green",
+   "icon": "dna",
+   "summary": "Cells, genetics and lab thinking — the science behind medicine, agriculture and the bio-economy.",
+   "skills": [
+    "Cell biology",
+    "Genetics",
+    "Lab technique",
+    "Bioinformatics",
+    "Scientific writing"
+   ],
+   "projects": [
+    "Bioinformatics exploration",
+    "Microbiology experiment",
+    "Genetics case study",
+    "Lab report"
+   ],
+   "pathways": [
+    "NEET & medicine",
+    "Biotechnology B.Tech",
+    "Research careers"
+   ],
+   "classRange": "Class 9–12"
+  },
+  {
+   "id": "physics",
+   "name": "Physics & Simulation",
+   "short": "Physics",
+   "tagline": "Understand the rule, then break it in a simulation.",
+   "accent": "orange",
+   "icon": "atom",
+   "summary": "Concept clarity through simulation and experiment instead of memorised formulae.",
+   "skills": [
+    "Mechanics",
+    "Numerical thinking",
+    "Simulation",
+    "Experiment design",
+    "Estimation"
+   ],
+   "projects": [
+    "Projectile simulation",
+    "Pendulum lab",
+    "Optics ray tracer",
+    "Energy audit"
+   ],
+   "pathways": [
+    "JEE & engineering",
+    "Physics honours",
+    "Pure research"
+   ],
+   "classRange": "Class 6–12"
+  },
+  {
+   "id": "engineering",
+   "name": "Mechanical Design & Engineering",
+   "short": "Mech Design",
+   "tagline": "Design it, simulate it, build it.",
+   "accent": "orange",
+   "icon": "cogs",
+   "summary": "CAD modelling, mechanisms and 3D-printed prototypes — for students who like taking things apart and putting them back better.",
+   "skills": [
+    "CAD modelling",
+    "Mechanisms & motion",
+    "3D printing",
+    "Material basics",
+    "Prototyping & testing"
+   ],
+   "projects": [
+    "CAD model pack",
+    "Gearbox mechanism",
+    "3D-printed prototype",
+    "Product teardown"
+   ],
+   "pathways": [
+    "Mechanical engineering (JEE & B.Tech)",
+    "Design schools",
+    "Robotics & automation",
+    "Maker entrepreneurship"
+   ],
+   "classRange": "Class 7–12"
+  },
+  {
+   "id": "research",
+   "name": "Research & Scientific Thinking",
+   "short": "Research",
+   "tagline": "Ask a question no one has answered yet.",
+   "accent": "violet",
+   "icon": "microscope",
+   "summary": "Framing a question, reading papers, running a small study and writing it up honestly.",
+   "skills": [
+    "Literature review",
+    "Method design",
+    "Data analysis",
+    "Academic writing",
+    "Ethics"
+   ],
+   "projects": [
+    "Survey study",
+    "Review paper",
+    "Data analysis report",
+    "Science fair project"
+   ],
+   "pathways": [
+    "Research programmes",
+    "Olympiads",
+    "Higher study abroad"
+   ],
+   "classRange": "Class 9–12"
+  },
+  {
+   "id": "entrepreneurship",
+   "name": "Entrepreneurship & Financial Literacy",
+   "short": "Entrepreneurship",
+   "tagline": "Solve something real for someone real.",
+   "accent": "pink",
+   "icon": "rocket",
+   "summary": "Catch a problem, test a solution, price it, and learn how money and teams actually work.",
+   "skills": [
+    "Problem discovery",
+    "Customer interviews",
+    "Pricing",
+    "Pitching",
+    "Money basics"
+   ],
+   "projects": [
+    "Micro-business launch",
+    "Market survey",
+    "Pitch deck",
+    "Pricing experiment"
+   ],
+   "pathways": [
+    "BBA & commerce",
+    "Family business",
+    "Founder programmes"
+   ],
+   "classRange": "Class 7–12"
+  }
+ ],
+ "exam_pathways": [
+  {
+   "code": "JEE",
+   "name": "IIT-JEE",
+   "accent": "blue",
+   "whoFor": "Class 11–12 + strong Class 9–10 foundation students",
+   "approach": "Concept-first physics, chemistry and maths with weekly problem labs instead of lecture recall.",
+   "mentorship": "Subject mentor plus a planning mentor who reviews the week.",
+   "planning": "Chapter map to the exam calendar with revision checkpoints.",
+   "conceptSupport": "Doubt clinics on demand inside the app.",
+   "monitoring": "Weekly progress board visible to parents."
+  },
+  {
+   "code": "NEET",
+   "name": "NEET",
+   "accent": "green",
+   "whoFor": "Class 11–12 students aiming at medicine and allied health",
+   "approach": "NCERT-anchored biology with diagram-first learning and spaced revision.",
+   "mentorship": "Biology mentor plus an exam-strategy mentor.",
+   "planning": "Topic weightage map built into the study plan.",
+   "conceptSupport": "Daily recall sets and error journals.",
+   "monitoring": "Accuracy and retention tracked per chapter."
+  },
+  {
+   "code": "NDA",
+   "name": "NDA",
+   "accent": "violet",
+   "whoFor": "Class 11–12 students targeting the National Defence Academy",
+   "approach": "Academics plus the written and physical preparation rhythm the academy expects.",
+   "mentorship": "Written-exam mentor plus an interview readiness mentor.",
+   "planning": "Academic and fitness schedule held side by side.",
+   "conceptSupport": "Maths and general-ability workshops.",
+   "monitoring": "Mock scores, SSB readiness notes."
+  },
+  {
+   "code": "CS",
+   "name": "CS (Company Secretary)",
+   "accent": "orange",
+   "whoFor": "Class 11–12 commerce and early-college students",
+   "approach": "Company law, governance and accounting taught through real filings.",
+   "mentorship": "Practising professional mentor for the professional stage.",
+   "planning": "Module-wise plan mapped to the ICSI attempt calendar.",
+   "conceptSupport": "Case-based tutorials and writing practice.",
+   "monitoring": "Mock papers and answer presentation reviews."
+  },
+  {
+   "code": "CMA",
+   "name": "CMA",
+   "accent": "cyan",
+   "whoFor": "Class 11–12 commerce and early-college students",
+   "approach": "Cost and management accounting built on real ledgers and plant data.",
+   "mentorship": "Cost-accounting mentor with industry practice.",
+   "planning": "Foundation-to-inter plan with attempt targets.",
+   "conceptSupport": "Numerical drills and formula clinics.",
+   "monitoring": "Attempt-level checkpoints and feedback notes."
+  },
+  {
+   "code": "HIGHER",
+   "name": "Higher Education & Research",
+   "accent": "pink",
+   "whoFor": "Class 11–12 students planning university and research pathways",
+   "approach": "Course and country discovery, portfolio building, application writing.",
+   "mentorship": "Admissions mentor plus a domain research mentor.",
+   "planning": "Application timeline with milestone reviews.",
+   "conceptSupport": "Statement, essay and interview preparation.",
+   "monitoring": "Portfolio tracker and readiness checklist."
+  },
+  {
+   "code": "UPSC",
+   "name": "UPSC Civil Services",
+   "accent": "orange",
+   "whoFor": "Class 9–12 students who want an early, calm start",
+   "approach": "Habit-first preparation: reading, notes and answer writing before the heavy syllabus.",
+   "mentorship": "Subject mentor plus a planning mentor who reviews the week.",
+   "planning": "Syllabus map to the exam calendar with revision checkpoints.",
+   "conceptSupport": "Doubt clinics on demand inside the app.",
+   "monitoring": "Weekly progress board visible to parents."
+  },
+  {
+   "code": "CAT",
+   "name": "CAT & MBA Entrance",
+   "accent": "cyan",
+   "whoFor": "Class 11–12 students curious about management",
+   "approach": "Quant, verbal and reasoning foundations with a realistic view of the MBA path.",
+   "mentorship": "Subject mentor plus a planning mentor who reviews the week.",
+   "planning": "Syllabus map to the exam calendar with revision checkpoints.",
+   "conceptSupport": "Doubt clinics on demand inside the app.",
+   "monitoring": "Weekly progress board visible to parents."
+  },
+  {
+   "code": "CA",
+   "name": "CA (Chartered Accountant)",
+   "accent": "red",
+   "whoFor": "Class 11–12 students heading to commerce",
+   "approach": "Accounting, law and aptitude built step by step toward the Foundation stage.",
+   "mentorship": "Subject mentor plus a planning mentor who reviews the week.",
+   "planning": "Syllabus map to the exam calendar with revision checkpoints.",
+   "conceptSupport": "Doubt clinics on demand inside the app.",
+   "monitoring": "Weekly progress board visible to parents."
+  }
+ ],
+ "programmes": [
+  {
+   "id": "p-ai-foundations",
+   "slug": "ai-ml-foundations",
+   "title": "AI & Machine Learning Foundations",
+   "kind": "future",
+   "trackId": "ai-ml",
+   "summary": "Understand how models learn, then build three working projects with a mentor reviewing your code.",
+   "accent": "blue",
+   "classRange": "Class 7–12",
+   "durationWeeks": 12,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "Python",
+    "Data handling",
+    "Model training",
+    "Model evaluation"
+   ],
+   "projects": [
+    "Image classifier",
+    "Prediction dashboard",
+    "Study-buddy chatbot"
+   ],
+   "outcomes": [
+    "Explain how a model learns from data",
+    "Clean and prepare a real dataset",
+    "Ship a working AI project end to end"
+   ],
+   "priceInr": 8999,
+   "goalOriented": false
+  },
+  {
+   "id": "p-ai-gen",
+   "slug": "generative-ai-builder-lab",
+   "title": "Machine Learning & Generative AI Builder Lab",
+   "kind": "future",
+   "trackId": "ai-ml",
+   "summary": "Move from using AI tools to understanding and building with models, APIs and embeddings.",
+   "accent": "violet",
+   "classRange": "Class 9–12",
+   "durationWeeks": 10,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "APIs",
+    "Prompt design",
+    "Embeddings",
+    "Retrieval",
+    "Evaluation"
+   ],
+   "projects": [
+    "Retrieval-based study assistant",
+    "Recommendation engine",
+    "Evaluation report"
+   ],
+   "outcomes": [
+    "Build an app on top of a language model",
+    "Measure whether an AI system actually works",
+    "Present your build to an audience"
+   ],
+   "priceInr": 9999,
+   "goalOriented": false
+  },
+  {
+   "id": "p-robotics-starter",
+   "slug": "robotics-starter-lab",
+   "title": "Robotics Starter Lab",
+   "kind": "future",
+   "trackId": "robotics",
+   "summary": "Circuits, sensors and control logic — every concept ends in something that moves.",
+   "accent": "violet",
+   "classRange": "Class 6–10",
+   "durationWeeks": 10,
+   "sessionsPerWeek": 2,
+   "mode": "Hybrid",
+   "skills": [
+    "Circuits",
+    "Microcontrollers",
+    "Sensors",
+    "Control logic"
+   ],
+   "projects": [
+    "Obstacle-avoiding robot",
+    "Line follower",
+    "Smart switch"
+   ],
+   "outcomes": [
+    "Read and build a simple circuit safely",
+    "Program a microcontroller to react to sensors",
+    "Debug a robot that is not behaving"
+   ],
+   "priceInr": 9499,
+   "goalOriented": false
+  },
+  {
+   "id": "p-robotics-advanced",
+   "slug": "autonomous-systems-lab",
+   "title": "Autonomous Systems Lab",
+   "kind": "future",
+   "trackId": "robotics",
+   "summary": "Control theory in practice: navigation, feedback loops and a robotic arm you program yourself.",
+   "accent": "cyan",
+   "classRange": "Class 9–12",
+   "durationWeeks": 12,
+   "sessionsPerWeek": 2,
+   "mode": "Hybrid",
+   "skills": [
+    "Control loops",
+    "Actuators",
+    "Computer vision",
+    "Systems thinking"
+   ],
+   "projects": [
+    "Robotic arm",
+    "Vision-guided rover",
+    "Automation rig"
+   ],
+   "outcomes": [
+    "Tune a feedback control loop",
+    "Combine a camera with motion control",
+    "Document a build like an engineer"
+   ],
+   "priceInr": 12999,
+   "goalOriented": false
+  },
+  {
+   "id": "p-drones",
+   "slug": "drone-technology-flight-systems",
+   "title": "Drone Technology & Flight Systems",
+   "kind": "future",
+   "trackId": "drones",
+   "summary": "Learn flight physics, controllers and mission planning through simulation and supervised flying.",
+   "accent": "cyan",
+   "classRange": "Class 8–12",
+   "durationWeeks": 10,
+   "sessionsPerWeek": 2,
+   "mode": "Hybrid",
+   "skills": [
+    "Aerodynamics",
+    "Flight controllers",
+    "Telemetry",
+    "DGCA basics"
+   ],
+   "projects": [
+    "Flight simulator missions",
+    "Mapping plan",
+    "Payload design"
+   ],
+   "outcomes": [
+    "Explain lift, thrust and stability",
+    "Plan a safe flight mission",
+    "Understand drone regulation in India"
+   ],
+   "priceInr": 10999,
+   "goalOriented": false
+  },
+  {
+   "id": "p-stock",
+   "slug": "stock-market-trading-lab",
+   "title": "Stock Market, Trading & Financial Literacy",
+   "kind": "future",
+   "trackId": "stock-market",
+   "summary": "Research-led investing literacy with paper trading — discipline and risk first, thrill never.",
+   "accent": "green",
+   "classRange": "Class 8–12",
+   "durationWeeks": 12,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "Financial statements",
+    "Market mechanics",
+    "Chart reading",
+    "Risk management"
+   ],
+   "projects": [
+    "Company research note",
+    "Paper-trading portfolio",
+    "Sector deep dive"
+   ],
+   "outcomes": [
+    "Read a balance sheet and a price chart",
+    "Write a research note with a clear thesis",
+    "Manage risk with position sizing rules"
+   ],
+   "priceInr": 8999,
+   "goalOriented": false
+  },
+  {
+   "id": "p-cs",
+   "slug": "computer-science-python-sprint",
+   "title": "Computer Science & Python Sprint",
+   "kind": "future",
+   "trackId": "computer-science",
+   "summary": "Programming fundamentals, logic and algorithms taught through small shipped projects.",
+   "accent": "blue",
+   "classRange": "Class 6–12",
+   "durationWeeks": 10,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "Python",
+    "Problem solving",
+    "Data structures",
+    "Git"
+   ],
+   "projects": [
+    "Personal web app",
+    "Quiz engine",
+    "Automation script"
+   ],
+   "outcomes": [
+    "Write clean, working Python",
+    "Break a problem into steps",
+    "Publish a project on GitHub"
+   ],
+   "priceInr": 7999,
+   "goalOriented": false
+  },
+  {
+   "id": "p-biotech",
+   "slug": "biotechnology-explorer",
+   "title": "Biotechnology & Life Sciences Explorer",
+   "kind": "future",
+   "trackId": "biotechnology",
+   "summary": "Genetics, cells and lab discipline with bioinformatics projects you can run on a laptop.",
+   "accent": "green",
+   "classRange": "Class 9–12",
+   "durationWeeks": 10,
+   "sessionsPerWeek": 2,
+   "mode": "Hybrid",
+   "skills": [
+    "Cell biology",
+    "Genetics",
+    "Lab technique",
+    "Bioinformatics"
+   ],
+   "projects": [
+    "Bioinformatics exploration",
+    "Microbiology study",
+    "Case report"
+   ],
+   "outcomes": [
+    "Design and run a controlled experiment",
+    "Interpret sequence and expression data",
+    "Write a structured lab report"
+   ],
+   "priceInr": null,
+   "goalOriented": false
+  },
+  {
+   "id": "p-goal-sprint",
+   "slug": "goal-sprint",
+   "title": "Goal Sprint — Design Your 90-Day Goal",
+   "kind": "direction",
+   "summary": "The v1 flagship: pick one real goal, break it into weekly proof, and ship it with a mentor checking on you.",
+   "accent": "yellow",
+   "classRange": "Class 6–12",
+   "durationWeeks": 12,
+   "sessionsPerWeek": 1,
+   "mode": "Online",
+   "skills": [
+    "Goal definition",
+    "Weekly planning",
+    "Self-review",
+    "Evidence building"
+   ],
+   "projects": [
+    "90-day goal charter",
+    "Weekly proof log",
+    "Final demo"
+   ],
+   "outcomes": [
+    "Turn a vague ambition into a measurable goal",
+    "Build a weekly habit that survives school",
+    "Finish with something real to show"
+   ],
+   "priceInr": 3499,
+   "goalOriented": true
+  },
+  {
+   "id": "p-jee",
+   "slug": "jee-guidance",
+   "title": "IIT-JEE Preparation & Mentorship",
+   "kind": "goal",
+   "examCode": "JEE",
+   "summary": "Concept-first physics, chemistry and maths with a weekly planning review and parent visibility.",
+   "accent": "blue",
+   "classRange": "Class 9–12",
+   "durationWeeks": 48,
+   "sessionsPerWeek": 4,
+   "mode": "Hybrid",
+   "skills": [
+    "Problem solving",
+    "Revision systems",
+    "Exam temperament"
+   ],
+   "projects": [
+    "Error journal",
+    "Revision calendar",
+    "Mock analysis"
+   ],
+   "outcomes": [
+    "Complete a chapter map to the exam calendar",
+    "Hold a weekly revision rhythm",
+    "Know your weak topics precisely"
+   ],
+   "priceInr": 6499,
+   "goalOriented": true
+  },
+  {
+   "id": "p-neet",
+   "slug": "neet-guidance",
+   "title": "NEET Preparation & Mentorship",
+   "kind": "goal",
+   "examCode": "NEET",
+   "summary": "NCERT-anchored biology with spaced revision, accuracy tracking and doubt clinics.",
+   "accent": "green",
+   "classRange": "Class 9–12",
+   "durationWeeks": 48,
+   "sessionsPerWeek": 4,
+   "mode": "Hybrid",
+   "skills": [
+    "Retention",
+    "Diagram work",
+    "Accuracy control"
+   ],
+   "projects": [
+    "Chapter map",
+    "Recall sets",
+    "Error journal"
+   ],
+   "outcomes": [
+    "Master NCERT depth for biology",
+    "Track recall decay honestly",
+    "Improve accuracy under time"
+   ],
+   "priceInr": 6499,
+   "goalOriented": true
+  },
+  {
+   "id": "p-nda",
+   "slug": "nda-guidance",
+   "title": "NDA Preparation & Mentorship",
+   "kind": "goal",
+   "examCode": "NDA",
+   "summary": "Written-exam academics plus the discipline and interview readiness the academy expects.",
+   "accent": "violet",
+   "classRange": "Class 11–12",
+   "durationWeeks": 40,
+   "sessionsPerWeek": 3,
+   "mode": "Online",
+   "skills": [
+    "Maths",
+    "General ability",
+    "Fitness discipline",
+    "Communication"
+   ],
+   "projects": [
+    "Mock tests",
+    "SSB readiness log",
+    "Daily routine plan"
+   ],
+   "outcomes": [
+    "Build a study-plus-fitness routine",
+    "Prepare for written and SSB stages together",
+    "Track mock performance over time"
+   ],
+   "priceInr": 5999,
+   "goalOriented": true
+  },
+  {
+   "id": "p-cs-prof",
+   "slug": "company-secretary-foundation",
+   "title": "CS Foundation Pathway",
+   "kind": "goal",
+   "examCode": "CS",
+   "summary": "Company law, governance and accounting taught through real filings and case work.",
+   "accent": "orange",
+   "classRange": "Class 11–12 & early college",
+   "durationWeeks": 36,
+   "sessionsPerWeek": 3,
+   "mode": "Online",
+   "skills": [
+    "Company law",
+    "Governance",
+    "Accounting",
+    "Answer writing"
+   ],
+   "projects": [
+    "Filings study",
+    "Case briefs",
+    "Answer bank"
+   ],
+   "outcomes": [
+    "Understand the CS qualification route",
+    "Read and analyse company filings",
+    "Write exam-grade answers"
+   ],
+   "priceInr": null,
+   "goalOriented": true
+  },
+  {
+   "id": "p-cma",
+   "slug": "cma-foundation",
+   "title": "CMA Foundation Pathway",
+   "kind": "goal",
+   "examCode": "CMA",
+   "summary": "Cost and management accounting built on real ledgers, plant data and numerical discipline.",
+   "accent": "cyan",
+   "classRange": "Class 11–12 & early college",
+   "durationWeeks": 36,
+   "sessionsPerWeek": 3,
+   "mode": "Online",
+   "skills": [
+    "Cost accounting",
+    "Numerical speed",
+    "Analysis"
+   ],
+   "projects": [
+    "Cost sheet build",
+    "Numerical drills",
+    "Plant case study"
+   ],
+   "outcomes": [
+    "Build and interpret a cost sheet",
+    "Solve numericals with confidence",
+    "Plan attempts around the exam calendar"
+   ],
+   "priceInr": null,
+   "goalOriented": true
+  },
+  {
+   "id": "p-higher",
+   "slug": "higher-education-research",
+   "title": "Higher Education & Research Pathway",
+   "kind": "goal",
+   "examCode": "HIGHER",
+   "summary": "Course discovery, portfolio building and application writing for university and research routes.",
+   "accent": "pink",
+   "classRange": "Class 10–12",
+   "durationWeeks": 24,
+   "sessionsPerWeek": 1,
+   "mode": "Online",
+   "skills": [
+    "Course research",
+    "Essay writing",
+    "Portfolio",
+    "Interviewing"
+   ],
+   "projects": [
+    "Shortlist report",
+    "Statement of purpose",
+    "Portfolio site"
+   ],
+   "outcomes": [
+    "Shortlist programmes that fit you",
+    "Write an honest, specific statement",
+    "Present your work with confidence"
+   ],
+   "priceInr": null,
+   "goalOriented": true
+  },
+  {
+   "id": "p-cyber",
+   "slug": "cybersecurity-ethical-hacking",
+   "title": "Cybersecurity & Ethical Hacking Foundations",
+   "kind": "future",
+   "summary": "Understand how networks and systems are attacked — and defended — through supervised, permission-based labs and CTF puzzles.",
+   "accent": "green",
+   "classRange": "Class 8–12",
+   "durationWeeks": 10,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "Networking basics",
+    "Ethical hacking",
+    "Cryptography",
+    "Digital safety"
+   ],
+   "projects": [
+    "Home-lab network map",
+    "CTF challenge set",
+    "Phishing awareness kit"
+   ],
+   "outcomes": [
+    "Explain how common attacks work and how to stop them",
+    "Solve beginner CTF challenges",
+    "Practise ethics, consent and responsible disclosure"
+   ],
+   "priceInr": null,
+   "goalOriented": false,
+   "trackId": "cybersecurity"
+  },
+  {
+   "id": "p-mech",
+   "slug": "mechanical-design-cad",
+   "title": "Mechanical Design & CAD Studio",
+   "kind": "future",
+   "summary": "Sketch, model and 3D-print working mechanisms with a mentor reviewing every design.",
+   "accent": "orange",
+   "classRange": "Class 7–12",
+   "durationWeeks": 12,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "CAD modelling",
+    "Mechanisms",
+    "3D printing",
+    "Prototyping"
+   ],
+   "projects": [
+    "Gearbox mechanism",
+    "CAD model pack",
+    "3D-printed prototype"
+   ],
+   "outcomes": [
+    "Model a part and an assembly in CAD",
+    "Design and test a simple mechanism",
+    "Present a prototype with design notes"
+   ],
+   "priceInr": null,
+   "goalOriented": false,
+   "trackId": "engineering"
+  },
+  {
+   "id": "p-upsc",
+   "slug": "upsc-foundation",
+   "title": "UPSC Foundation Pathway",
+   "kind": "goal",
+   "summary": "Reading, writing and current-affairs habits that make civil-services preparation easier later.",
+   "accent": "orange",
+   "classRange": "Class 9–12",
+   "durationWeeks": 40,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "Polity & history basics",
+    "Geography",
+    "Current affairs",
+    "Answer writing"
+   ],
+   "projects": [
+    "Weekly current-affairs notes",
+    "Answer-writing log",
+    "Reading plan"
+   ],
+   "outcomes": [
+    "Build a daily reading and notes routine",
+    "Write structured, timed answers",
+    "Understand the stages of the exam"
+   ],
+   "priceInr": null,
+   "goalOriented": true,
+   "examCode": "UPSC"
+  },
+  {
+   "id": "p-cat",
+   "slug": "cat-mba-foundation",
+   "title": "CAT & MBA Foundation Pathway",
+   "kind": "goal",
+   "summary": "Quant, verbal and reasoning foundations — plus an honest look at what management careers involve.",
+   "accent": "cyan",
+   "classRange": "Class 11–12",
+   "durationWeeks": 40,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "Quant",
+    "Verbal ability",
+    "Logical reasoning",
+    "Business basics"
+   ],
+   "projects": [
+    "Sectional practice log",
+    "Reading-speed tracker",
+    "Case-study notes"
+   ],
+   "outcomes": [
+    "Strengthen quant and verbal fundamentals",
+    "Learn how the exam and the MBA path work",
+    "Track practice accuracy over time"
+   ],
+   "priceInr": null,
+   "goalOriented": true,
+   "examCode": "CAT"
+  },
+  {
+   "id": "p-ca",
+   "slug": "ca-foundation",
+   "title": "CA Foundation Pathway",
+   "kind": "goal",
+   "summary": "Accounting, law and quantitative aptitude explained simply, with a clear roadmap to the CA Foundation stage.",
+   "accent": "red",
+   "classRange": "Class 11–12",
+   "durationWeeks": 40,
+   "sessionsPerWeek": 2,
+   "mode": "Online",
+   "skills": [
+    "Accounting",
+    "Business law",
+    "Quantitative aptitude",
+    "Business economics"
+   ],
+   "projects": [
+    "Journal-entry practice",
+    "Mock test log",
+    "Study roadmap"
+   ],
+   "outcomes": [
+    "Understand the CA stages and timeline",
+    "Practise core accounting with confidence",
+    "Plan revision around the exam calendar"
+   ],
+   "priceInr": null,
+   "goalOriented": true,
+   "examCode": "CA"
+  }
+ ],
+ "pathfinder_goal_options": [
+  "Engineering",
+  "Medicine & health",
+  "Research",
+  "Defence",
+  "Technology & AI",
+  "Finance & markets",
+  "Startup / business",
+  "Government services",
+  "Higher studies abroad",
+  "Not decided yet"
+ ],
+ "class_options": [
+  "Class 6",
+  "Class 7",
+  "Class 8",
+  "Class 9",
+  "Class 10",
+  "Class 11",
+  "Class 12",
+  "Just finished Class 12"
+ ],
+ "network_nodes_3d": [
+  {
+   "id": "ai",
+   "label": "AI & ML",
+   "color": 2450411,
+   "subs": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Generative AI",
+    "Data",
+    "Projects"
+   ]
+  },
+  {
+   "id": "robotics",
+   "label": "Robotics",
+   "color": 8141549,
+   "subs": [
+    "Sensors",
+    "Control",
+    "Embedded systems",
+    "Automation",
+    "Robotic systems"
+   ]
+  },
+  {
+   "id": "drones",
+   "label": "Drones",
+   "color": 440020,
+   "subs": [
+    "Aerodynamics",
+    "Flight controllers",
+    "Telemetry",
+    "Mapping",
+    "Regulation"
+   ]
+  },
+  {
+   "id": "cs",
+   "label": "Computer Sci",
+   "color": 2450411,
+   "subs": [
+    "Python",
+    "Algorithms",
+    "Data structures",
+    "Web",
+    "Git"
+   ]
+  },
+  {
+   "id": "markets",
+   "label": "Stock Market",
+   "color": 1483594,
+   "subs": [
+    "Financial statements",
+    "Charts",
+    "Risk",
+    "Paper trading",
+    "Portfolios"
+   ]
+  },
+  {
+   "id": "biotech",
+   "label": "Biotech",
+   "color": 1483594,
+   "subs": [
+    "Genetics",
+    "Lab work",
+    "Bioinformatics",
+    "Life sciences"
+   ]
+  },
+  {
+   "id": "physics",
+   "label": "Physics",
+   "color": 16486972,
+   "subs": [
+    "Mechanics",
+    "Numericals",
+    "Simulation",
+    "Experiment design"
+   ]
+  },
+  {
+   "id": "engineering",
+   "label": "Engineering",
+   "color": 16486972,
+   "subs": [
+    "Design thinking",
+    "CAD",
+    "Prototyping",
+    "Testing"
+   ]
+  },
+  {
+   "id": "research",
+   "label": "Research",
+   "color": 8141549,
+   "subs": [
+    "Literature",
+    "Method",
+    "Analysis",
+    "Writing",
+    "Ethics"
+   ]
+  },
+  {
+   "id": "jee",
+   "label": "JEE",
+   "color": 2450411,
+   "subs": [
+    "Physics",
+    "Chemistry",
+    "Maths",
+    "Chapter map",
+    "Mock analysis"
+   ]
+  },
+  {
+   "id": "neet",
+   "label": "NEET",
+   "color": 1483594,
+   "subs": [
+    "Biology depth",
+    "Recall systems",
+    "Accuracy",
+    "Revision"
+   ]
+  },
+  {
+   "id": "nda",
+   "label": "NDA",
+   "color": 8141549,
+   "subs": [
+    "Maths",
+    "General ability",
+    "Fitness rhythm",
+    "SSB readiness"
+   ]
+  },
+  {
+   "id": "cs-cma",
+   "label": "CS / CMA",
+   "color": 440020,
+   "subs": [
+    "Company law",
+    "Cost accounting",
+    "Answer writing",
+    "Attempt planning"
+   ]
+  },
+  {
+   "id": "startup",
+   "label": "Startups",
+   "color": 15485081,
+   "subs": [
+    "Problem discovery",
+    "Pricing",
+    "Pitching",
+    "Money basics"
+   ]
+  }
+ ],
+ "i18n": {
+  "en": {
+   "nav.home": "Home",
+   "nav.catalog": "Catalogue",
+   "nav.mentors": "Mentors",
+   "nav.community": "Community",
+   "nav.plans": "Plans",
+   "nav.pathfinder": "Path Finder",
+   "nav.about": "About Us",
+   "nav.partners": "For schools & centres",
+   "nav.bookSession": "Book a one-to-one session",
+   "nav.askAi": "Ask DishaYaaN AI",
+   "nav.askAiShort": "Ask AI",
+   "nav.talkToMentor": "Talk to a Mentor",
+   "nav.connectMentor": "Connect with mentor",
+   "nav.login": "Login",
+   "nav.dashboard": "My dashboard",
+   "nav.account": "Account",
+   "nav.more": "More",
+   "nav.openMenu": "Open menu",
+   "nav.closeMenu": "Close menu",
+   "lang.label": "Language",
+   "hero.eyebrow": "Mentorship × Technology × Career × Exams",
+   "hero.titleTop": "Your Future Is",
+   "hero.titleHighlight": "Bigger Than",
+   "hero.titleBottom": "Your Syllabus.",
+   "hero.lead": "DishaYaaN is a mentorship programme for students of Class 6–12: one-to-one counselling, emerging technology, real projects and honest guidance from mentors who have walked the path.",
+   "hero.ctaDiscover": "Discover Your Path",
+   "hero.ctaMentors": "Meet Our Mentors",
+   "hero.trustStudents": "Guidance for students",
+   "hero.trustParents": "Visibility for parents",
+   "hero.trustMentors": "Perspective from mentors",
+   "hero.bookOneToOne": "Book a one-to-one session →",
+   "hero.exploring": "Exploring:",
+   "hero.exploringHint": "— read the details beside the network.",
+   "hero.networkLabel": "Future path network — hover a node",
+   "hero.pathsSuffix": "paths",
+   "hero.networkNote": "Every node is a real DishaYaaN track. Hover to see the skills and projects inside it. On phones and low-power devices this renders as a lighter 2D map so the page stays fast.",
+   "hero.loading3d": "Loading 3D network…",
+   "footer.intro": "Your future is bigger than your syllabus. DishaYaaN helps students of Class 6–12 explore emerging technology, prepare for real goals and learn from mentors who have walked the path.",
+   "footer.colExplore": "Explore",
+   "footer.colStudents": "Students",
+   "footer.colParents": "Parents",
+   "footer.colInstitutions": "Institutions",
+   "footer.colCompany": "Company",
+   "footer.colLegal": "Legal",
+   "footer.linkProgrammes": "Programmes",
+   "footer.linkMentors": "Mentors",
+   "footer.linkPlans": "Plans & pricing",
+   "footer.linkAbout": "About Us",
+   "footer.linkPathFinder": "Path Finder",
+   "footer.linkCatalog": "Course & exam catalogue",
+   "footer.linkAskMentor": "Ways to ask a mentor",
+   "footer.linkDashboard": "My dashboard",
+   "footer.linkParentGuide": "Parent guide",
+   "footer.linkProgress": "Progress visibility",
+   "footer.linkTalkMentor": "Talk to a mentor",
+   "footer.linkFees": "Fees & payment",
+   "footer.linkSchools": "Schools",
+   "footer.linkColleges": "Colleges",
+   "footer.linkCoaching": "Coaching centres",
+   "footer.linkPartner": "Partner with us",
+   "footer.linkAboutBrand": "About DishaYaaN",
+   "footer.linkRequirement": "Requirement form",
+   "footer.linkContact": "Contact",
+   "footer.linkCareers": "Careers",
+   "footer.linkPrivacy": "Privacy",
+   "footer.linkTerms": "Terms",
+   "footer.linkRefund": "Refund policy",
+   "footer.bookFree": "Book a free session",
+   "footer.rights": "© {year} DishaYaaN. Built for students, parents and mentors.",
+   "footer.verification": "Mentor profiles, testimonials and student stories publish only after verification and consent.",
+   "home.audience.eyebrow": "Start here",
+   "home.audience.title": "Who are you exploring DishaYaaN for?",
+   "home.audience.lead": "The answer changes what we show you first — a student needs possibilities, a parent needs visibility.",
+   "home.tracks.eyebrow": "Future exploration",
+   "home.tracks.title1": "Don't choose your future too early.",
+   "home.tracks.title2": "Explore it first.",
+   "home.tracks.lead": "Ten ecosystems, each with real skills, real projects and a mentor who works in it. Pick one to see what it actually contains.",
+   "home.catalog.eyebrow": "Course & exam catalogue",
+   "home.catalog.title": "Three layers. One clear path.",
+   "home.catalog.lead": "Most students are handed a random list of courses. DishaYaaN is organised so you always know which layer you are standing in.",
+   "home.mentors.eyebrow": "Mentorship",
+   "home.mentors.title": "Learn from people who've walked the path.",
+   "home.mentors.lead": "Mentors are matched by domain, language and schedule. Every seat below lists exactly what it covers — and publishes a 2-minute introduction once the mentor completes verification.",
+   "home.projects.eyebrow": "Project-based learning",
+   "home.projects.title": "Don't just learn. Build.",
+   "home.projects.lead": "Every track ends in something that exists. Here is the shape of a DishaYaaN project: a problem, a build, a mentor, and a lesson you keep.",
+   "home.journey.eyebrow": "How DishaYaaN works",
+   "home.journey.title": "Six steps, in this order, every time.",
+   "home.journey.lead": "No student is dropped into content. The sequence is the product.",
+   "home.parents.eyebrow": "Parent experience",
+   "home.parents.title": "Parents shouldn't have to guess what their child is learning.",
+   "home.parents.lead": "You see the same picture your child does: what was attended, what is being built, what the mentor observed, and what comes next.",
+   "home.partners.eyebrow": "Institution collaboration",
+   "home.partners.title": "Schools, colleges and coaching centres — let's build the layer you don't have.",
+   "home.partners.lead": "DishaYaaN runs alongside your institution: we bring the mentors, labs and future-readiness pathways, you keep your academic strength.",
+   "home.voices.eyebrow": "Social proof",
+   "home.voices.title": "We would rather show nothing than show fake proof.",
+   "home.voices.lead": "DishaYaaN's first cohort is in progress. These slots fill with real, consented voices as soon as we have them.",
+   "home.faq.eyebrow": "Questions",
+   "home.faq.title": "Straight answers.",
+   "home.faq.lead": "If your question is not here, ask DishaYaaN AI or a mentor directly.",
+   "home.final.eyebrow": "Your next step",
+   "home.final.title": "Your next step can start here.",
+   "home.final.lead": "Two minutes to tell us what you need. Or skip the form and have a free conversation with a mentor who works in the field you are curious about.",
+   "home.final.connect": "Connect with a mentor",
+   "home.final.compare": "Compare plans",
+   "home.final.pathfinder": "Run the Path Finder",
+   "home.final.aside": "What happens after you reach out",
+   "home.final.step1": "We read what you sent — a person, not an autoresponder.",
+   "home.final.step2": "A mentor in your domain messages you on WhatsApp within a day.",
+   "home.final.step3": "You get a free 20-minute conversation before any payment.",
+   "home.final.step4": "If DishaYaaN is not the right fit, we will say so.",
+   "home.demand.eyebrow": "Tell us what you need",
+   "home.demand.title": "We are building DishaYaaN around students and parents — not assumptions.",
+   "home.demand.lead": "Every answer here goes into what we design next: which programmes exist, what earns trust, and what parents actually want to see.",
+   "home.ai.eyebrow": "DishaYaaN AI",
+   "home.ai.title": "Your first guide to what comes next.",
+   "home.ai.lead": "Ten free questions to explore domains, plans and pathways. DishaYaaN AI asks about your class and interests so its answers are useful — and every conversation ends with the option to speak to a human."
+  },
+  "hi": {
+   "nav.home": "होम",
+   "nav.catalog": "कोर्स सूची",
+   "nav.mentors": "मेंटर",
+   "nav.community": "समुदाय",
+   "nav.plans": "प्लान",
+   "nav.pathfinder": "पाथ फाइंडर",
+   "nav.about": "हमारे बारे में",
+   "nav.partners": "स्कूल और संस्थान",
+   "nav.bookSession": "वन-टू-वन सत्र बुक करें",
+   "nav.askAi": "DishaYaaN AI से पूछें",
+   "nav.askAiShort": "AI से पूछें",
+   "nav.talkToMentor": "मेंटर से बात करें",
+   "nav.connectMentor": "मेंटर से जुड़ें",
+   "nav.login": "लॉग इन",
+   "nav.dashboard": "मेरा डैशबोर्ड",
+   "nav.account": "खाता",
+   "nav.more": "और",
+   "nav.openMenu": "मेन्यू खोलें",
+   "nav.closeMenu": "मेन्यू बंद करें",
+   "lang.label": "भाषा",
+   "hero.eyebrow": "मार्गदर्शन × तकनीक × करियर × परीक्षाएँ",
+   "hero.titleTop": "आपका भविष्य",
+   "hero.titleHighlight": "आपके सिलेबस से बड़ा",
+   "hero.titleBottom": "है।",
+   "hero.lead": "DishaYaaN कक्षा 6–12 के विद्यार्थियों के लिए एक मेंटरशिप कार्यक्रम है: वन-टू-वन काउंसलिंग, उभरती तकनीक, असली प्रोजेक्ट और उन मेंटरों से ईमानदार मार्गदर्शन जो यह रास्ता खुद चल चुके हैं।",
+   "hero.ctaDiscover": "अपना रास्ता खोजें",
+   "hero.ctaMentors": "हमारे मेंटर से मिलें",
+   "hero.trustStudents": "विद्यार्थियों के लिए मार्गदर्शन",
+   "hero.trustParents": "अभिभावकों के लिए पारदर्शिता",
+   "hero.trustMentors": "मेंटरों का दृष्टिकोण",
+   "hero.bookOneToOne": "वन-टू-वन सत्र बुक करें →",
+   "hero.exploring": "देख रहे हैं:",
+   "hero.exploringHint": "— बगल के नेटवर्क में ब्यौरा पढ़ें।",
+   "hero.networkLabel": "भविष्य का पाथ नेटवर्क — किसी नोड पर हॉवर करें",
+   "hero.pathsSuffix": "रास्ते",
+   "hero.networkNote": "हर नोड DishaYaaN का असली ट्रैक है। उसमें मौजूद कौशल और प्रोजेक्ट देखने के लिए हॉवर करें। फ़ोन और कम-शक्ति वाले डिवाइस पर यह हल्का 2D नक्शा बनकर पेज को तेज़ रखता है।",
+   "hero.loading3d": "3D नेटवर्क लोड हो रहा है…",
+   "footer.intro": "आपका भविष्य आपके सिलेबस से बड़ा है। DishaYaaN कक्षा 6–12 के विद्यार्थियों को उभरती तकनीक समझने, असली लक्ष्यों की तैयारी करने और उन मेंटरों से सीखने में मदद करता है जो यह रास्ता खुद चल चुके हैं।",
+   "footer.colExplore": "जानें",
+   "footer.colStudents": "विद्यार्थी",
+   "footer.colParents": "अभिभावक",
+   "footer.colInstitutions": "संस्थान",
+   "footer.colCompany": "कंपनी",
+   "footer.colLegal": "कानूनी",
+   "footer.linkProgrammes": "कार्यक्रम",
+   "footer.linkMentors": "मेंटर",
+   "footer.linkPlans": "प्लान और शुल्क",
+   "footer.linkAbout": "हमारे बारे में",
+   "footer.linkPathFinder": "पाथ फाइंडर",
+   "footer.linkCatalog": "कोर्स और परीक्षा सूची",
+   "footer.linkAskMentor": "मेंटर से पूछने के तरीके",
+   "footer.linkDashboard": "मेरा डैशबोर्ड",
+   "footer.linkParentGuide": "अभिभावक गाइड",
+   "footer.linkProgress": "प्रगति की जानकारी",
+   "footer.linkTalkMentor": "मेंटर से बात करें",
+   "footer.linkFees": "शुल्क और भुगतान",
+   "footer.linkSchools": "स्कूल",
+   "footer.linkColleges": "कॉलेज",
+   "footer.linkCoaching": "कोचिंग सेंटर",
+   "footer.linkPartner": "हमारे साथ साझेदारी",
+   "footer.linkAboutBrand": "DishaYaaN के बारे में",
+   "footer.linkRequirement": "ज़रूरत फ़ॉर्म",
+   "footer.linkContact": "संपर्क",
+   "footer.linkCareers": "करियर",
+   "footer.linkPrivacy": "गोपनीयता",
+   "footer.linkTerms": "शर्तें",
+   "footer.linkRefund": "रिफ़ंड नीति",
+   "footer.bookFree": "निःशुल्क सत्र बुक करें",
+   "footer.rights": "© {year} DishaYaaN. विद्यार्थियों, अभिभावकों और मेंटरों के लिए बनाया गया।",
+   "footer.verification": "मेंटर प्रोफ़ाइल, प्रशंसापत्र और विद्यार्थी कहानियाँ सत्यापन और सहमति के बाद ही प्रकाशित होती हैं।",
+   "home.audience.eyebrow": "यहाँ से शुरू करें",
+   "home.audience.title": "आप DishaYaaN किसके लिए देख रहे हैं?",
+   "home.audience.lead": "इससे तय होता है कि हम पहले क्या दिखाएँ — विद्यार्थी को संभावनाएँ चाहिए, अभिभावक को पारदर्शिता।",
+   "home.tracks.eyebrow": "भविष्य की खोज",
+   "home.tracks.title1": "अपना भविष्य इतनी जल्दी मत चुनो।",
+   "home.tracks.title2": "पहले उसे खोजो।",
+   "home.tracks.lead": "दस इकोसिस्टम, हर एक में असली कौशल, असली प्रोजेक्ट और उसी क्षेत्र का मेंटर। किसी एक को चुनकर देखें कि उसमें असल में क्या है।",
+   "home.catalog.eyebrow": "कोर्स और परीक्षा सूची",
+   "home.catalog.title": "तीन परतें। एक साफ़ रास्ता।",
+   "home.catalog.lead": "ज़्यादातर विद्यार्थियों को कोर्सों की बेतरतीब सूची दी जाती है। DishaYaaN ऐसे बना है कि आपको हमेशा पता रहे कि आप किस परत पर खड़े हैं।",
+   "home.mentors.eyebrow": "मेंटरशिप",
+   "home.mentors.title": "उन लोगों से सीखें जो यह रास्ता चल चुके हैं।",
+   "home.mentors.lead": "मेंटर क्षेत्र, भाषा और समय के हिसाब से मिलाए जाते हैं। नीचे हर सीट पर साफ़ लिखा है कि उसमें क्या शामिल है — और मेंटर सत्यापन पूरा होते ही 2 मिनट का परिचय प्रकाशित होता है।",
+   "home.projects.eyebrow": "प्रोजेक्ट-आधारित शिक्षा",
+   "home.projects.title": "सिर्फ़ पढ़ो मत। बनाओ।",
+   "home.projects.lead": "हर ट्रैक किसी ऐसी चीज़ पर खत्म होता है जो मौजूद होती है। DishaYaaN प्रोजेक्ट का ढाँचा यह है: एक समस्या, एक निर्माण, एक मेंटर, और एक सबक जो आपके पास रहता है।",
+   "home.journey.eyebrow": "DishaYaaN कैसे काम करता है",
+   "home.journey.title": "छह चरण, हर बार इसी क्रम में।",
+   "home.journey.lead": "किसी विद्यार्थी को सीधे कंटेंट में नहीं छोड़ा जाता। यही क्रम ही उत्पाद है।",
+   "home.parents.eyebrow": "अभिभावकों का अनुभव",
+   "home.parents.title": "अभिभावकों को अंदाज़ा नहीं लगाना पड़े कि बच्चा क्या सीख रहा है।",
+   "home.parents.lead": "आपको वही तस्वीर दिखती है जो आपके बच्चे को: क्या अटेंड हुआ, क्या बन रहा है, मेंटर ने क्या देखा और आगे क्या है।",
+   "home.partners.eyebrow": "संस्थानों के साथ साझेदारी",
+   "home.partners.title": "स्कूल, कॉलेज और कोचिंग सेंटर — जो परत आपके पास नहीं है, वह मिलकर बनाएँ।",
+   "home.partners.lead": "DishaYaaN आपके संस्थान के साथ चलता है: मेंटर, लैब और भविष्य-तैयारी के रास्ते हम लाते हैं, अकादमिक मज़बूती आपकी रहती है।",
+   "home.voices.eyebrow": "भरोसे की बात",
+   "home.voices.title": "नकली सबूत दिखाने से बेहतर है कुछ न दिखाना।",
+   "home.voices.lead": "DishaYaaN का पहला बैच चल रहा है। असली और सहमति वाली आवाज़ें मिलते ही ये जगहें भर जाएँगी।",
+   "home.faq.eyebrow": "सवाल",
+   "home.faq.title": "सीधे जवाब।",
+   "home.faq.lead": "अगर आपका सवाल यहाँ नहीं है, तो DishaYaaN AI या सीधे किसी मेंटर से पूछें।",
+   "home.final.eyebrow": "आपका अगला कदम",
+   "home.final.title": "आपका अगला कदम यहीं से शुरू हो सकता है।",
+   "home.final.lead": "दो मिनट में बताएँ कि आपको क्या चाहिए। या फ़ॉर्म छोड़कर उस मेंटर से निःशुल्क बात करें जो आपके रुचि के क्षेत्र में काम करता है।",
+   "home.final.connect": "मेंटर से जुड़ें",
+   "home.final.compare": "प्लान की तुलना करें",
+   "home.final.pathfinder": "पाथ फाइंडर चलाएँ",
+   "home.final.aside": "संपर्क करने के बाद क्या होता है",
+   "home.final.step1": "आपका भेजा हुआ हम पढ़ते हैं — एक इंसान, ऑटो-रिप्लाई नहीं।",
+   "home.final.step2": "आपके क्षेत्र का मेंटर एक दिन के भीतर WhatsApp पर संपर्क करता है।",
+   "home.final.step3": "किसी भी भुगतान से पहले 20 मिनट की निःशुल्क बातचीत मिलती है।",
+   "home.final.step4": "अगर DishaYaaN आपके लिए सही नहीं है, तो हम साफ़ कह देंगे।",
+   "home.demand.eyebrow": "बताइए आपको क्या चाहिए",
+   "home.demand.title": "हम DishaYaaN को विद्यार्थियों और अभिभावकों के इर्द-गिर्द बना रहे हैं — अनुमानों के इर्द-गिर्द नहीं।",
+   "home.demand.lead": "यहाँ का हर जवाब तय करता है कि आगे क्या बनेगा: कौन-से कार्यक्रम हों, भरोसा किससे बनता है, और अभिभावक असल में क्या देखना चाहते हैं।",
+   "home.ai.eyebrow": "DishaYaaN AI",
+   "home.ai.title": "आगे क्या है, इसके लिए आपका पहला गाइड।",
+   "home.ai.lead": "दस मुफ़्त सवाल, जिनसे आप क्षेत्र, प्लान और रास्ते समझ सकते हैं। DishaYaaN AI आपकी कक्षा और रुचियों के बारे में पूछता है ताकि जवाब काम के हों — और हर बातचीत के आखिर में किसी इंसान से बात करने का विकल्प मिलता है।"
+  },
+  "bn": {
+   "nav.home": "হোম",
+   "nav.catalog": "কোর্স তালিকা",
+   "nav.mentors": "মেন্টর",
+   "nav.community": "কমিউনিটি",
+   "nav.plans": "প্ল্যান",
+   "nav.pathfinder": "পাথ ফাইন্ডার",
+   "nav.about": "আমাদের সম্পর্কে",
+   "nav.partners": "স্কুল ও প্রতিষ্ঠান",
+   "nav.bookSession": "এক-এক করে সেশন বুক করুন",
+   "nav.askAi": "DishaYaaN AI-কে জিজ্ঞাসা করুন",
+   "nav.askAiShort": "AI-কে জিজ্ঞাসা করুন",
+   "nav.talkToMentor": "মেন্টরের সঙ্গে কথা বলুন",
+   "nav.connectMentor": "মেন্টরের সঙ্গে যুক্ত হোন",
+   "nav.login": "লগ ইন",
+   "nav.dashboard": "আমার ড্যাশবোর্ড",
+   "nav.account": "অ্যাকাউন্ট",
+   "nav.more": "আরও",
+   "nav.openMenu": "মেনু খুলুন",
+   "nav.closeMenu": "মেনু বন্ধ করুন",
+   "lang.label": "ভাষা",
+   "hero.eyebrow": "মেন্টরশিপ × প্রযুক্তি × ক্যারিয়ার × পরীক্ষা",
+   "hero.titleTop": "তোমার ভবিষ্যৎ",
+   "hero.titleHighlight": "সিলেবাসের চেয়ে বড়",
+   "hero.titleBottom": "।",
+   "hero.lead": "DishaYaaN ষষ্ঠ থেকে দ্বাদশ শ্রেণির শিক্ষার্থীদের জন্য একটি মেন্টরশিপ কর্মসূচি: এক-এক করে কাউন্সেলিং, উদীয়মান প্রযুক্তি, বাস্তব প্রকল্প এবং পথটা নিজে হেঁটে আসা মেন্টরদের সৎ দিশা।",
+   "hero.ctaDiscover": "নিজের পথ খুঁজে নাও",
+   "hero.ctaMentors": "আমাদের মেন্টরদের সঙ্গে পরিচিত হও",
+   "hero.trustStudents": "শিক্ষার্থীদের জন্য দিশা",
+   "hero.trustParents": "অভিভাবকদের জন্য স্বচ্ছতা",
+   "hero.trustMentors": "মেন্টরদের দৃষ্টিভঙ্গি",
+   "hero.bookOneToOne": "এক-এক করে সেশন বুক করুন →",
+   "hero.exploring": "দেখছেন:",
+   "hero.exploringHint": "— পাশের নেটওয়ার্কে বিস্তারিত পড়ুন।",
+   "hero.networkLabel": "ভবিষ্যতের পথ-নেটওয়ার্ক — যেকোনো নোডে হোভার করুন",
+   "hero.pathsSuffix": "পথ",
+   "hero.networkNote": "প্রতিটি নোড DishaYaaN-এর সত্যিকারের ট্র্যাক। ভিতরের দক্ষতা ও প্রকল্প দেখতে হোভার করুন। ফোন ও কম ক্ষমতার ডিভাইসে এটি হালকা 2D ম্যাপ হিসেবে দেখায়, তাই পেজ দ্রুত থাকে।",
+   "hero.loading3d": "3D নেটওয়ার্ক লোড হচ্ছে…",
+   "footer.intro": "তোমার ভবিষ্যৎ তোমার সিলেবাসের চেয়ে বড়। DishaYaaN ষষ্ঠ থেকে দ্বাদশ শ্রেণির শিক্ষার্থীদের উদীয়মান প্রযুক্তি চিনতে, সত্যিকারের লক্ষ্যের জন্য তৈরি হতে এবং পথ হেঁটে আসা মেন্টরদের কাছ থেকে শিখতে সাহায্য করে।",
+   "footer.colExplore": "দেখুন",
+   "footer.colStudents": "শিক্ষার্থী",
+   "footer.colParents": "অভিভাবক",
+   "footer.colInstitutions": "প্রতিষ্ঠান",
+   "footer.colCompany": "কোম্পানি",
+   "footer.colLegal": "আইনি",
+   "footer.linkProgrammes": "কর্মসূচি",
+   "footer.linkMentors": "মেন্টর",
+   "footer.linkPlans": "প্ল্যান ও ফি",
+   "footer.linkAbout": "আমাদের সম্পর্কে",
+   "footer.linkPathFinder": "পাথ ফাইন্ডার",
+   "footer.linkCatalog": "কোর্স ও পরীক্ষার তালিকা",
+   "footer.linkAskMentor": "মেন্টরকে জিজ্ঞাসার উপায়",
+   "footer.linkDashboard": "আমার ড্যাশবোর্ড",
+   "footer.linkParentGuide": "অভিভাবক গাইড",
+   "footer.linkProgress": "অগ্রগতির স্বচ্ছতা",
+   "footer.linkTalkMentor": "মেন্টরের সঙ্গে কথা বলুন",
+   "footer.linkFees": "ফি ও পেমেন্ট",
+   "footer.linkSchools": "স্কুল",
+   "footer.linkColleges": "কলেজ",
+   "footer.linkCoaching": "কোচিং সেন্টার",
+   "footer.linkPartner": "আমাদের সঙ্গে পার্টনার হোন",
+   "footer.linkAboutBrand": "DishaYaaN সম্পর্কে",
+   "footer.linkRequirement": "প্রয়োজন ফর্ম",
+   "footer.linkContact": "যোগাযোগ",
+   "footer.linkCareers": "ক্যারিয়ার",
+   "footer.linkPrivacy": "গোপনীয়তা",
+   "footer.linkTerms": "শর্তাবলি",
+   "footer.linkRefund": "রিফান্ড নীতি",
+   "footer.bookFree": "বিনামূল্যে সেশন বুক করুন",
+   "footer.rights": "© {year} DishaYaaN। শিক্ষার্থী, অভিভাবক ও মেন্টরদের জন্য তৈরি।",
+   "footer.verification": "মেন্টর প্রোফাইল, প্রশংসাপত্র ও শিক্ষার্থীর গল্প যাচাই ও সম্মতির পরেই প্রকাশিত হয়।",
+   "home.audience.eyebrow": "এখান থেকে শুরু",
+   "home.audience.title": "DishaYaaN তুমি কার জন্য দেখছ?",
+   "home.audience.lead": "উত্তরই ঠিক করে আমরা আগে কী দেখাব — শিক্ষার্থীর দরকার সম্ভাবনা, অভিভাবকের দরকার স্বচ্ছতা।",
+   "home.tracks.eyebrow": "ভবিষ্যৎ অন্বেষণ",
+   "home.tracks.title1": "ভবিষ্যৎ এত তাড়াতাড়ি বেছে নিও না।",
+   "home.tracks.title2": "আগে সেটা ঘুরে দেখো।",
+   "home.tracks.lead": "দশটি ইকোসিস্টেম, প্রতিটিতে বাস্তব দক্ষতা, বাস্তব প্রকল্প আর সেই ক্ষেত্রের একজন মেন্টর। একটি বেছে নিয়ে দেখো ভিতরে আসলে কী আছে।",
+   "home.catalog.eyebrow": "কোর্স ও পরীক্ষার তালিকা",
+   "home.catalog.title": "তিনটি স্তর। একটাই স্পষ্ট পথ।",
+   "home.catalog.lead": "বেশিরভাগ শিক্ষার্থী এলোমেলো কোর্সের তালিকা পায়। DishaYaaN এমনভাবে সাজানো যে তুমি সবসময় জানো তুমি কোন স্তরে দাঁড়িয়ে আছ।",
+   "home.mentors.eyebrow": "মেন্টরশিপ",
+   "home.mentors.title": "যাঁরা পথটা হেঁটে এসেছেন, তাঁদের কাছ থেকে শেখো।",
+   "home.mentors.lead": "মেন্টরদের মেলানো হয় বিষয়, ভাষা ও সময় অনুযায়ী। নিচের প্রতিটি সিটে লেখা আছে সেটিতে কী কী আছে — এবং মেন্টর যাচাই শেষ করলেই দুই মিনিটের পরিচিতি প্রকাশিত হয়।",
+   "home.projects.eyebrow": "প্রকল্পভিত্তিক শিক্ষা",
+   "home.projects.title": "শুধু শেখো না। বানাও।",
+   "home.projects.lead": "প্রতিটি ট্র্যাক শেষ হয় এমন কিছুতে যা সত্যিই আছে। DishaYaaN প্রকল্পের ছাঁচ: একটি সমস্যা, একটি নির্মাণ, একজন মেন্টর আর একটি শিক্ষা যা তুমি ধরে রাখো।",
+   "home.journey.eyebrow": "DishaYaaN কীভাবে কাজ করে",
+   "home.journey.title": "ছয়টি ধাপ, প্রতি বার এই ক্রমেই।",
+   "home.journey.lead": "কোনো শিক্ষার্থীকে সোজা কনটেন্টে ছাড়া হয় না। এই ক্রমটাই মূল পণ্য।",
+   "home.parents.eyebrow": "অভিভাবকদের অভিজ্ঞতা",
+   "home.parents.title": "সন্তান কী শিখছে, তা আন্দাজ করতে অভিভাবকদের না হয়।",
+   "home.parents.lead": "আপনার সন্তানের মতো একই ছবি আপনি দেখেন: কী উপস্থিত হয়েছে, কী তৈরি হচ্ছে, মেন্টর কী লক্ষ্য করেছেন এবং এরপর কী।",
+   "home.partners.eyebrow": "প্রতিষ্ঠানের সঙ্গে সহযোগিতা",
+   "home.partners.title": "স্কুল, কলেজ ও কোচিং সেন্টার — যেই স্তরটি আপনার নেই, সেটি একসঙ্গে গড়ি।",
+   "home.partners.lead": "DishaYaaN আপনার প্রতিষ্ঠানের সঙ্গে চলে: মেন্টর, ল্যাব ও ভবিষ্যৎ-প্রস্তুতির পথ আমরা আনি, শিক্ষার শক্তি আপনারই থাকে।",
+   "home.voices.eyebrow": "ভরসার প্রমাণ",
+   "home.voices.title": "নকল প্রমাণ দেখানোর চেয়ে কিছু না দেখানো ভালো।",
+   "home.voices.lead": "DishaYaaN-এর প্রথম ব্যাচ চলছে। সত্যিকারের ও সম্মতিসম্মত কণ্ঠ পাওয়া মাত্রই এই জায়গাগুলো ভরে যাবে।",
+   "home.faq.eyebrow": "প্রশ্ন",
+   "home.faq.title": "সোজা উত্তর।",
+   "home.faq.lead": "আপনার প্রশ্ন এখানে না থাকলে DishaYaaN AI-কে বা সরাসরি একজন মেন্টরকে জিজ্ঞাসা করুন।",
+   "home.final.eyebrow": "আপনার পরের ধাপ",
+   "home.final.title": "আপনার পরের ধাপ এখান থেকেই শুরু হতে পারে।",
+   "home.final.lead": "দুই মিনিটে বলুন আপনার কী দরকার। অথবা ফর্ম ছেড়ে যে মেন্টর আপনার আগ্রহের ক্ষেত্রে কাজ করেন, তাঁর সঙ্গে বিনামূল্যে কথা বলুন।",
+   "home.final.connect": "মেন্টরের সঙ্গে যুক্ত হোন",
+   "home.final.compare": "প্ল্যান তুলনা করুন",
+   "home.final.pathfinder": "পাথ ফাইন্ডার চালান",
+   "home.final.aside": "যোগাযোগের পরে কী হয়",
+   "home.final.step1": "আপনি যা পাঠিয়েছেন আমরা পড়ি — একজন মানুষ, কোনো অটো-রিপ্লাই নয়।",
+   "home.final.step2": "আপনার ক্ষেত্রের একজন মেন্টর এক দিনের মধ্যে WhatsApp-এ যোগাযোগ করেন।",
+   "home.final.step3": "কোনো পেমেন্টের আগেই ২০ মিনিটের বিনামূল্যে আলাপ হয়।",
+   "home.final.step4": "DishaYaaN আপনার জন্য উপযুক্ত না হলে আমরা সেটা স্পষ্ট বলব।",
+   "home.demand.eyebrow": "আপনার প্রয়োজন জানান",
+   "home.demand.title": "আমরা DishaYaaN গড়ছি শিক্ষার্থী ও অভিভাবকদের ঘিরে — অনুমানের ঘিরে নয়।",
+   "home.demand.lead": "এখানকার প্রতিটি উত্তরই ঠিক করে পরের ধাপ: কোন কর্মসূচি থাকবে, কী ভরসা তৈরি করে এবং অভিভাবকরা আসলে কী দেখতে চান।",
+   "home.ai.eyebrow": "DishaYaaN AI",
+   "home.ai.title": "এরপর কী, তার প্রথম গাইড।",
+   "home.ai.lead": "ক্ষেত্র, প্ল্যান ও পথ ঘুরে দেখার জন্য দশটি বিনামূল্যের প্রশ্ন। DishaYaaN AI আপনার শ্রেণি ও আগ্রহ জানতে চায় যাতে উত্তর কাজে লাগে — আর প্রতিটি আলাপ শেষে একজন মানুষের সঙ্গে কথা বলার সুযোগ থাকে।"
+  },
+  "or": {
+   "nav.home": "ହୋମ",
+   "nav.catalog": "ପାଠ୍ୟକ୍ରମ ତାଲିକା",
+   "nav.mentors": "ମେଣ୍ଟର",
+   "nav.community": "ସମ୍ପ୍ରଦାୟ",
+   "nav.plans": "ଯୋଜନା",
+   "nav.pathfinder": "ପାଥ୍ ଫାଇଣ୍ଡର",
+   "nav.about": "ଆମ ବିଷୟରେ",
+   "nav.partners": "ବିଦ୍ୟାଳୟ ଓ ସଂସ୍ଥାନ",
+   "nav.bookSession": "ଏକ-ରୁ-ଏକ ସେସନ୍ ବୁକ୍ କରନ୍ତୁ",
+   "nav.askAi": "DishaYaaN AI କୁ ପଚାରନ୍ତୁ",
+   "nav.askAiShort": "AI କୁ ପଚାରନ୍ତୁ",
+   "nav.talkToMentor": "ମେଣ୍ଟରଙ୍କ ସହ କଥା ହୁଅନ୍ତୁ",
+   "nav.connectMentor": "ମେଣ୍ଟରଙ୍କ ସହ ଯୋଡ଼ି ହୁଅନ୍ତୁ",
+   "nav.login": "ଲଗ୍ ଇନ୍",
+   "nav.dashboard": "ମୋ ଡ୍ୟାସବୋର୍ଡ",
+   "nav.account": "ଖାତା",
+   "nav.more": "ଅଧିକ",
+   "nav.openMenu": "ମେନୁ ଖୋଲନ୍ତୁ",
+   "nav.closeMenu": "ମେନୁ ବନ୍ଦ କରନ୍ତୁ",
+   "lang.label": "ଭାଷା",
+   "hero.eyebrow": "ମାର୍ଗଦର୍ଶନ × ଟେକ୍ନୋଲୋଜି × କ୍ୟାରିଅର୍ × ପରୀକ୍ଷା",
+   "hero.titleTop": "ତୁମର ଭବିଷ୍ୟତ",
+   "hero.titleHighlight": "ସିଲେବସ୍‌ଠାରୁ ବଡ଼",
+   "hero.titleBottom": "।",
+   "hero.lead": "DishaYaaN ଷଷ୍ଠରୁ ଦ୍ୱାଦଶ ଶ୍ରେଣୀର ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ ଏକ ମେଣ୍ଟରସିପ୍ କାର୍ଯ୍ୟକ୍ରମ: ଏକ-ରୁ-ଏକ ପରାମର୍ଶ, ଉଦୀୟମାନ ଟେକ୍ନୋଲୋଜି, ପ୍ରକୃତ ପ୍ରୋଜେକ୍ଟ ଏବଂ ପଥ ଚାଲି ଆସିଥିବା ମେଣ୍ଟରଙ୍କ ସଚ୍ଚୋଟ ମାର୍ଗଦର୍ଶନ।",
+   "hero.ctaDiscover": "ନିଜ ପଥ ଖୋଜନ୍ତୁ",
+   "hero.ctaMentors": "ଆମ ମେଣ୍ଟରଙ୍କୁ ଭେଟନ୍ତୁ",
+   "hero.trustStudents": "ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ ମାର୍ଗଦର୍ଶନ",
+   "hero.trustParents": "ଅଭିଭାବକଙ୍କ ପାଇଁ ସ୍ୱଚ୍ଛତା",
+   "hero.trustMentors": "ମେଣ୍ଟରଙ୍କ ଦୃଷ୍ଟିକୋଣ",
+   "hero.bookOneToOne": "ଏକ-ରୁ-ଏକ ସେସନ୍ ବୁକ୍ କରନ୍ତୁ →",
+   "hero.exploring": "ଦେଖୁଛନ୍ତି:",
+   "hero.exploringHint": "— ପାଖ ନେଟୱାର୍କରେ ବିବରଣୀ ପଢ଼ନ୍ତୁ।",
+   "hero.networkLabel": "ଭବିଷ୍ୟତ ପଥ ନେଟୱାର୍କ — କୌଣସି ନୋଡ୍ ଉପରେ ହୋଭର କରନ୍ତୁ",
+   "hero.pathsSuffix": "ପଥ",
+   "hero.networkNote": "ପ୍ରତ୍ୟେକ ନୋଡ୍ DishaYaaNର ପ୍ରକୃତ ଟ୍ରାକ୍। ଭିତରର ଦକ୍ଷତା ଓ ପ୍ରୋଜେକ୍ଟ ଦେଖିବାକୁ ହୋଭର କରନ୍ତୁ। ଫୋନ୍ ଓ କମ୍ ଶକ୍ତିର ଡିଭାଇସରେ ଏହା ହାଲୁକା 2D ମ୍ୟାପ୍ ଭାବେ ଦେଖାଯାଏ, ତେଣୁ ପୃଷ୍ଠା ଶୀଘ୍ର ରହେ।",
+   "hero.loading3d": "3D ନେଟୱାର୍କ ଲୋଡ୍ ହେଉଛି…",
+   "footer.intro": "ତୁମର ଭବିଷ୍ୟତ ତୁମ ସିଲେବସ୍‌ଠାରୁ ବଡ଼। DishaYaaN ଷଷ୍ଠରୁ ଦ୍ୱାଦଶ ଶ୍ରେଣୀର ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ଉଦୀୟମାନ ଟେକ୍ନୋଲୋଜି ଚିହ୍ନିବାରେ, ପ୍ରକୃତ ଲକ୍ଷ୍ୟ ପାଇଁ ପ୍ରସ୍ତୁତ ହେବାରେ ଏବଂ ପଥ ଚାଲି ଆସିଥିବା ମେଣ୍ଟରଙ୍କଠାରୁ ଶିଖିବାରେ ସାହାଯ୍ୟ କରେ।",
+   "footer.colExplore": "ଦେଖନ୍ତୁ",
+   "footer.colStudents": "ଛାତ୍ରଛାତ୍ରୀ",
+   "footer.colParents": "ଅଭିଭାବକ",
+   "footer.colInstitutions": "ସଂସ୍ଥାନ",
+   "footer.colCompany": "କମ୍ପାନୀ",
+   "footer.colLegal": "ଆଇନଗତ",
+   "footer.linkProgrammes": "କାର୍ଯ୍ୟକ୍ରମ",
+   "footer.linkMentors": "ମେଣ୍ଟର",
+   "footer.linkPlans": "ଯୋଜନା ଓ ଶୁଳ୍କ",
+   "footer.linkAbout": "ଆମ ବିଷୟରେ",
+   "footer.linkPathFinder": "ପାଥ୍ ଫାଇଣ୍ଡର",
+   "footer.linkCatalog": "ପାଠ୍ୟକ୍ରମ ଓ ପରୀକ୍ଷା ତାଲିକା",
+   "footer.linkAskMentor": "ମେଣ୍ଟରଙ୍କୁ ପଚାରିବାର ଉପାୟ",
+   "footer.linkDashboard": "ମୋ ଡ୍ୟାସବୋର୍ଡ",
+   "footer.linkParentGuide": "ଅଭିଭାବକ ଗାଇଡ୍",
+   "footer.linkProgress": "ଅଗ୍ରଗତିର ସ୍ୱଚ୍ଛତା",
+   "footer.linkTalkMentor": "ମେଣ୍ଟରଙ୍କ ସହ କଥା ହୁଅନ୍ତୁ",
+   "footer.linkFees": "ଶୁଳ୍କ ଓ ଦେୟ",
+   "footer.linkSchools": "ବିଦ୍ୟାଳୟ",
+   "footer.linkColleges": "କଲେଜ",
+   "footer.linkCoaching": "କୋଚିଂ ସେଣ୍ଟର",
+   "footer.linkPartner": "ଆମ ସହ ଭାଗୀଦାରୀ",
+   "footer.linkAboutBrand": "DishaYaaN ବିଷୟରେ",
+   "footer.linkRequirement": "ଆବଶ୍ୟକତା ଫର୍ମ",
+   "footer.linkContact": "ଯୋଗାଯୋଗ",
+   "footer.linkCareers": "କ୍ୟାରିଅର୍",
+   "footer.linkPrivacy": "ଗୋପନୀୟତା",
+   "footer.linkTerms": "ସର୍ତ୍ତାବଳୀ",
+   "footer.linkRefund": "ରିଫଣ୍ଡ ନୀତି",
+   "footer.bookFree": "ମାଗଣା ସେସନ୍ ବୁକ୍ କରନ୍ତୁ",
+   "footer.rights": "© {year} DishaYaaN। ଛାତ୍ରଛାତ୍ରୀ, ଅଭିଭାବକ ଓ ମେଣ୍ଟରଙ୍କ ପାଇଁ ନିର୍ମିତ।",
+   "footer.verification": "ମେଣ୍ଟର ପ୍ରୋଫାଇଲ, ପ୍ରଶଂସାପତ୍ର ଓ ଛାତ୍ର କାହାଣୀ ଯାଞ୍ଚ ଓ ସମ୍ମତି ପରେ ହିଁ ପ୍ରକାଶିତ ହୁଏ।",
+   "home.audience.eyebrow": "ଏଠାରୁ ଆରମ୍ଭ କରନ୍ତୁ",
+   "home.audience.title": "DishaYaaN କାହା ପାଇଁ ଦେଖୁଛନ୍ତି?",
+   "home.audience.lead": "ଉତ୍ତର ହିଁ ନିର୍ଣ୍ଣୟ କରେ ଆମେ ପ୍ରଥମେ କଣ ଦେଖାଇବୁ — ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ସମ୍ଭାବନା ଦରକାର, ଅଭିଭାବକଙ୍କୁ ସ୍ୱଚ୍ଛତା।",
+   "home.tracks.eyebrow": "ଭବିଷ୍ୟତ ଅନ୍ୱେଷଣ",
+   "home.tracks.title1": "ଭବିଷ୍ୟତ ଏତେ ଶୀଘ୍ର ବାଛ ନାହିଁ।",
+   "home.tracks.title2": "ପ୍ରଥମେ ତାକୁ ଦେଖ।",
+   "home.tracks.lead": "ଦଶଟି ଇକୋସିଷ୍ଟମ୍, ପ୍ରତ୍ୟେକରେ ପ୍ରକୃତ ଦକ୍ଷତା, ପ୍ରକୃତ ପ୍ରୋଜେକ୍ଟ ଏବଂ ସେହି କ୍ଷେତ୍ରର ଜଣେ ମେଣ୍ଟର। ଗୋଟିଏ ବାଛି ଦେଖନ୍ତୁ ଭିତରେ ପ୍ରକୃତରେ କଣ ଅଛି।",
+   "home.catalog.eyebrow": "ପାଠ୍ୟକ୍ରମ ଓ ପରୀକ୍ଷା ତାଲିକା",
+   "home.catalog.title": "ତିନୋଟି ସ୍ତର। ଏକ ସ୍ପଷ୍ଟ ପଥ।",
+   "home.catalog.lead": "ଅଧିକାଂଶ ଛାତ୍ରଛାତ୍ରୀ ଏକ ଅନିୟମିତ ପାଠ୍ୟକ୍ରମ ତାଲିକା ପାଆନ୍ତି। DishaYaaN ଏମିତି ସଜାଡ଼ା ଯେ ତୁମେ ସର୍ବଦା ଜାଣିଥାଅ ତୁମେ କେଉଁ ସ୍ତରରେ ଛିଡ଼ା ଅଛ।",
+   "home.mentors.eyebrow": "ମେଣ୍ଟରସିପ୍",
+   "home.mentors.title": "ଯେଉଁମାନେ ପଥ ଚାଲି ଆସିଛନ୍ତି, ସେମାନଙ୍କଠାରୁ ଶିଖ।",
+   "home.mentors.lead": "ମେଣ୍ଟରମାନଙ୍କୁ କ୍ଷେତ୍ର, ଭାଷା ଓ ସମୟ ଅନୁସାରେ ମିଳାଯାଏ। ତଳେ ପ୍ରତ୍ୟେକ ସିଟରେ ସ୍ପଷ୍ଟ ଲେଖା ଅଛି ସେଥିରେ କଣ ଅଛି — ଏବଂ ମେଣ୍ଟର ଯାଞ୍ଚ ସମ୍ପୂର୍ଣ୍ଣ କଲେ ୨ ମିନିଟର ପରିଚୟ ପ୍ରକାଶିତ ହୁଏ।",
+   "home.projects.eyebrow": "ପ୍ରୋଜେକ୍ଟ-ଆଧାରିତ ଶିକ୍ଷା",
+   "home.projects.title": "କେବଳ ଶିଖ ନାହିଁ। ତିଆରି କର।",
+   "home.projects.lead": "ପ୍ରତ୍ୟେକ ଟ୍ରାକ୍ ସେମିତି କିଛିରେ ଶେଷ ହୁଏ ଯାହା ପ୍ରକୃତରେ ଅଛି। DishaYaaN ପ୍ରୋଜେକ୍ଟର ଢାଞ୍ଚା: ଏକ ସମସ୍ୟା, ଏକ ନିର୍ମାଣ, ଜଣେ ମେଣ୍ଟର ଏବଂ ଏକ ଶିକ୍ଷା ଯାହା ତୁମ ସହ ରହେ।",
+   "home.journey.eyebrow": "DishaYaaN କିପରି କାମ କରେ",
+   "home.journey.title": "ଛଅଟି ପର୍ଯ୍ୟାୟ, ପ୍ରତିଥର ଏହି କ୍ରମରେ।",
+   "home.journey.lead": "କୌଣସି ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ସିଧା ବିଷୟବସ୍ତୁକୁ ଛଡ଼ା ଯାଏ ନାହିଁ। ଏହି କ୍ରମ ହିଁ ଉତ୍ପାଦ।",
+   "home.parents.eyebrow": "ଅଭିଭାବକଙ୍କ ଅନୁଭୂତି",
+   "home.parents.title": "ପିଲା କଣ ଶିଖୁଛି ତାହା ଅଭିଭାବକମାନେ ଅନୁମାନ କରିବାକୁ ପଡ଼ିବ ନାହିଁ।",
+   "home.parents.lead": "ଆପଣଙ୍କ ସନ୍ତାନ ଯେଉଁ ଚିତ୍ର ଦେଖେ, ସେହି ଚିତ୍ର ଆପଣ ମଧ୍ୟ ଦେଖନ୍ତି: କଣ ଉପସ୍ଥିତ ହେଲା, କଣ ତିଆରି ହେଉଛି, ମେଣ୍ଟର କଣ ଦେଖିଲେ ଏବଂ ଆଗକୁ କଣ ଅଛି।",
+   "home.partners.eyebrow": "ସଂସ୍ଥାନଙ୍କ ସହ ସହଯୋଗ",
+   "home.partners.title": "ବିଦ୍ୟାଳୟ, କଲେଜ ଓ କୋଚିଂ ସେଣ୍ଟର — ଯେଉଁ ସ୍ତର ନାହିଁ, ତାହା ମିଶି ତିଆରି କରିବା।",
+   "home.partners.lead": "DishaYaaN ଆପଣଙ୍କ ସଂସ୍ଥାନ ସହ ଚାଲେ: ମେଣ୍ଟର, ଲ୍ୟାବ୍ ଓ ଭବିଷ୍ୟତ-ପ୍ରସ୍ତୁତି ପଥ ଆମେ ଆଣୁ, ଶୈକ୍ଷିକ ଶକ୍ତି ଆପଣଙ୍କ ପାଖରେ ରହେ।",
+   "home.voices.eyebrow": "ବିଶ୍ୱାସର ପ୍ରମାଣ",
+   "home.voices.title": "ନକଲି ପ୍ରମାଣ ଦେଖାଇବା ଅପେକ୍ଷା କିଛି ନ ଦେଖାଇବା ଭଲ।",
+   "home.voices.lead": "DishaYaaNର ପ୍ରଥମ ବ୍ୟାଚ୍ ଚାଲିଛି। ପ୍ରକୃତ ଓ ସମ୍ମତିପ୍ରାପ୍ତ ସ୍ୱର ମିଳିଲେ ଏହି ସ୍ଥାନ ଭରିଯିବ।",
+   "home.faq.eyebrow": "ପ୍ରଶ୍ନ",
+   "home.faq.title": "ସିଧା ଉତ୍ତର।",
+   "home.faq.lead": "ଆପଣଙ୍କ ପ୍ରଶ୍ନ ଏଠାରେ ନ ଥିଲେ DishaYaaN AI କୁ କିମ୍ବା ସିଧା ଜଣେ ମେଣ୍ଟରଙ୍କୁ ପଚାରନ୍ତୁ।",
+   "home.final.eyebrow": "ଆପଣଙ୍କ ପରବର୍ତ୍ତୀ ପଦକ୍ଷେପ",
+   "home.final.title": "ଆପଣଙ୍କ ପରବର୍ତ୍ତୀ ପଦକ୍ଷେପ ଏଠାରୁ ଆରମ୍ଭ ହୋଇପାରେ।",
+   "home.final.lead": "ଦୁଇ ମିନିଟରେ କୁହନ୍ତୁ ଆପଣଙ୍କୁ କଣ ଦରକାର। କିମ୍ବା ଫର୍ମ ଛାଡ଼ି ଆପଣଙ୍କ ଆଗ୍ରହର କ୍ଷେତ୍ରରେ କାମ କରୁଥିବା ମେଣ୍ଟରଙ୍କ ସହ ମାଗଣା କଥା ହୁଅନ୍ତୁ।",
+   "home.final.connect": "ମେଣ୍ଟରଙ୍କ ସହ ଯୋଡ଼ି ହୁଅନ୍ତୁ",
+   "home.final.compare": "ଯୋଜନା ତୁଳନା କରନ୍ତୁ",
+   "home.final.pathfinder": "ପାଥ୍ ଫାଇଣ୍ଡର ଚଲାନ୍ତୁ",
+   "home.final.aside": "ଯୋଗାଯୋଗ ପରେ କଣ ହୁଏ",
+   "home.final.step1": "ଆପଣ ପଠାଇଥିବା ଆମେ ପଢ଼ୁ — ଜଣେ ମଣିଷ, ଅଟୋ-ରିପ୍ଲାଏ ନୁହେଁ।",
+   "home.final.step2": "ଆପଣଙ୍କ କ୍ଷେତ୍ରର ଜଣେ ମେଣ୍ଟର ଏକ ଦିନ ଭିତରେ WhatsApp ରେ ଯୋଗାଯୋଗ କରନ୍ତି।",
+   "home.final.step3": "କୌଣସି ଦେୟ ପୂର୍ବରୁ ୨୦ ମିନିଟର ମାଗଣା କଥାବାର୍ତ୍ତା ମିଳେ।",
+   "home.final.step4": "DishaYaaN ଆପଣଙ୍କ ପାଇଁ ଉପଯୁକ୍ତ ନ ହେଲେ ଆମେ ସ୍ପଷ୍ଟ କହିବୁ।",
+   "home.demand.eyebrow": "ଆପଣଙ୍କ ଆବଶ୍ୟକତା କୁହନ୍ତୁ",
+   "home.demand.title": "ଆମେ DishaYaaN ଛାତ୍ରଛାତ୍ରୀ ଓ ଅଭିଭାବକଙ୍କ ଚାରିପାଖରେ ତିଆରି କରୁଛୁ — ଅନୁମାନର ଚାରିପାଖରେ ନୁହେଁ।",
+   "home.demand.lead": "ଏଠାର ପ୍ରତ୍ୟେକ ଉତ୍ତର ପରବର୍ତ୍ତୀ ପରିକଳ୍ପନା ନିର୍ଣ୍ଣୟ କରେ: କେଉଁ କାର୍ଯ୍ୟକ୍ରମ ରହିବ, କଣ ବିଶ୍ୱାସ ଗଢ଼େ ଏବଂ ଅଭିଭାବକମାନେ ପ୍ରକୃତରେ କଣ ଦେଖିବାକୁ ଚାହାନ୍ତି।",
+   "home.ai.eyebrow": "DishaYaaN AI",
+   "home.ai.title": "ଆଗକୁ କଣ, ତାହାର ଆପଣଙ୍କ ପ୍ରଥମ ଗାଇଡ୍।",
+   "home.ai.lead": "କ୍ଷେତ୍ର, ଯୋଜନା ଓ ପଥ ଖୋଜିବା ପାଇଁ ଦଶଟି ମାଗଣା ପ୍ରଶ୍ନ। DishaYaaN AI ଆପଣଙ୍କ ଶ୍ରେଣୀ ଓ ଆଗ୍ରହ ବିଷୟରେ ପଚାରେ ଯାହା ଫଳରେ ଉତ୍ତର ଉପଯୋଗୀ ହୁଏ — ଏବଂ ପ୍ରତ୍ୟେକ କଥାବାର୍ତ୍ତା ଶେଷରେ ଜଣେ ମଣିଷ ସହ କଥା ହେବାର ବିକଳ୍ପ ମିଳେ।"
+  },
+  "gu": {
+   "nav.home": "હોમ",
+   "nav.catalog": "કોર્સ યાદી",
+   "nav.mentors": "મેન્ટર",
+   "nav.community": "સમુદાય",
+   "nav.plans": "પ્લાન",
+   "nav.pathfinder": "પાથ ફાઇન્ડર",
+   "nav.about": "અમારા વિશે",
+   "nav.partners": "શાળાઓ અને સંસ્થાઓ",
+   "nav.bookSession": "વન-ટુ-વન સેશન બુક કરો",
+   "nav.askAi": "DishaYaaN AI ને પૂછો",
+   "nav.askAiShort": "AI ને પૂછો",
+   "nav.talkToMentor": "મેન્ટર સાથે વાત કરો",
+   "nav.connectMentor": "મેન્ટર સાથે જોડાઓ",
+   "nav.login": "લોગ ઇન",
+   "nav.dashboard": "મારું ડેશબોર્ડ",
+   "nav.account": "ખાતું",
+   "nav.more": "વધુ",
+   "nav.openMenu": "મેનૂ ખોલો",
+   "nav.closeMenu": "મેનૂ બંધ કરો",
+   "lang.label": "ભાષા",
+   "hero.eyebrow": "માર્ગદર્શન × ટેકનોલોજી × કારકિર્દી × પરીક્ષાઓ",
+   "hero.titleTop": "તમારું ભવિષ્ય",
+   "hero.titleHighlight": "તમારા સિલેબસથી મોટું",
+   "hero.titleBottom": "છે.",
+   "hero.lead": "DishaYaaN ધોરણ 6–12 ના વિદ્યાર્થીઓ માટે એક મેન્ટરશિપ કાર્યક્રમ છે: વન-ટુ-વન કાઉન્સેલિંગ, ઉભરતી ટેકનોલોજી, સાચા પ્રોજેક્ટ અને જે મેન્ટરોએ આ માર્ગ પોતે ચાલ્યો છે તેમનું પ્રામાણિક માર્ગદર્શન.",
+   "hero.ctaDiscover": "તમારો માર્ગ શોધો",
+   "hero.ctaMentors": "અમારા મેન્ટરને મળો",
+   "hero.trustStudents": "વિદ્યાર્થીઓ માટે માર્ગદર્શન",
+   "hero.trustParents": "વાલીઓ માટે પારદર્શિતા",
+   "hero.trustMentors": "મેન્ટરોનો દૃષ્ટિકોણ",
+   "hero.bookOneToOne": "વન-ટુ-વન સેશન બુક કરો →",
+   "hero.exploring": "જોઈ રહ્યા છો:",
+   "hero.exploringHint": "— બાજુના નેટવર્કમાં વિગતો વાંચો.",
+   "hero.networkLabel": "ભવિષ્યનું પાથ નેટવર્ક — કોઈ નોડ પર હોવર કરો",
+   "hero.pathsSuffix": "માર્ગો",
+   "hero.networkNote": "દરેક નોડ DishaYaaNનું સાચું ટ્રેક છે. તેમાંના કૌશલ્યો અને પ્રોજેક્ટ જોવા હોવર કરો. ફોન અને ઓછી શક્તિવાળા ઉપકરણો પર તે હલકું 2D નકશા તરીકે દેખાય છે, જેથી પૃષ્ઠ ઝડપી રહે.",
+   "hero.loading3d": "3D નેટવર્ક લોડ થઈ રહ્યું છે…",
+   "footer.intro": "તમારું ભવિષ્ય તમારા સિલેબસથી મોટું છે. DishaYaaN ધોરણ 6–12 ના વિદ્યાર્થીઓને ઉભરતી ટેકનોલોજી સમજવામાં, સાચા લક્ષ્યોની તૈયારી કરવામાં અને માર્ગ ચાલી આવેલા મેન્ટરો પાસેથી શીખવામાં મદદ કરે છે.",
+   "footer.colExplore": "જુઓ",
+   "footer.colStudents": "વિદ્યાર્થીઓ",
+   "footer.colParents": "વાલીઓ",
+   "footer.colInstitutions": "સંસ્થાઓ",
+   "footer.colCompany": "કંપની",
+   "footer.colLegal": "કાનૂની",
+   "footer.linkProgrammes": "કાર્યક્રમો",
+   "footer.linkMentors": "મેન્ટર",
+   "footer.linkPlans": "પ્લાન અને ફી",
+   "footer.linkAbout": "અમારા વિશે",
+   "footer.linkPathFinder": "પાથ ફાઇન્ડર",
+   "footer.linkCatalog": "કોર્સ અને પરીક્ષા યાદી",
+   "footer.linkAskMentor": "મેન્ટરને પૂછવાની રીતો",
+   "footer.linkDashboard": "મારું ડેશબોર્ડ",
+   "footer.linkParentGuide": "વાલી ગાઇડ",
+   "footer.linkProgress": "પ્રગતિની પારદર્શિતા",
+   "footer.linkTalkMentor": "મેન્ટર સાથે વાત કરો",
+   "footer.linkFees": "ફી અને ચુકવણી",
+   "footer.linkSchools": "શાળાઓ",
+   "footer.linkColleges": "કોલેજો",
+   "footer.linkCoaching": "કોચિંગ સેન્ટરો",
+   "footer.linkPartner": "અમારી સાથે ભાગીદારી",
+   "footer.linkAboutBrand": "DishaYaaN વિશે",
+   "footer.linkRequirement": "જરૂરિયાત ફોર્મ",
+   "footer.linkContact": "સંપર્ક",
+   "footer.linkCareers": "કારકિર્દી",
+   "footer.linkPrivacy": "ગોપનીયતા",
+   "footer.linkTerms": "શરતો",
+   "footer.linkRefund": "રિફંડ નીતિ",
+   "footer.bookFree": "મફત સેશન બુક કરો",
+   "footer.rights": "© {year} DishaYaaN. વિદ્યાર્થીઓ, વાલીઓ અને મેન્ટરો માટે બનાવેલું.",
+   "footer.verification": "મેન્ટર પ્રોફાઇલ, પ્રશંસાપત્રો અને વિદ્યાર્થી વાર્તાઓ ચકાસણી અને સંમતિ પછી જ પ્રકાશિત થાય છે.",
+   "home.audience.eyebrow": "અહીંથી શરૂ કરો",
+   "home.audience.title": "તમે DishaYaaN કોના માટે જોઈ રહ્યા છો?",
+   "home.audience.lead": "જવાબ જ નક્કી કરે છે કે અમે પહેલા શું બતાવીશું — વિદ્યાર્થીને શક્યતાઓ જોઈએ, વાલીને પારદર્શિતા.",
+   "home.tracks.eyebrow": "ભવિષ્યની શોધ",
+   "home.tracks.title1": "ભવિષ્ય આટલું વહેલું ન પસંદ કરો.",
+   "home.tracks.title2": "પહેલા એને શોધો.",
+   "home.tracks.lead": "દસ ઇકોસિસ્ટમ, દરેકમાં સાચી કૌશલ્યો, સાચા પ્રોજેક્ટ અને તે ક્ષેત્રનો મેન્ટર. એક પસંદ કરો અને જુઓ કે તેમાં ખરેખર શું છે.",
+   "home.catalog.eyebrow": "કોર્સ અને પરીક્ષા યાદી",
+   "home.catalog.title": "ત્રણ સ્તર. એક સ્પષ્ટ માર્ગ.",
+   "home.catalog.lead": "મોટા ભાગના વિદ્યાર્થીઓને કોર્સોની અસ્તવ્યસ્ત યાદી મળે છે. DishaYaaN એવી રીતે ગોઠવાયેલું છે કે તમને હંમેશા ખબર રહે કે તમે કયા સ્તર પર છો.",
+   "home.mentors.eyebrow": "મેન્ટરશિપ",
+   "home.mentors.title": "જેઓ માર્ગ ચાલી આવ્યા છે તેમનાથી શીખો.",
+   "home.mentors.lead": "મેન્ટરોને ક્ષેત્ર, ભાષા અને સમય પ્રમાણે મેળવવામાં આવે છે. નીચેની દરેક સીટ પર સ્પષ્ટ લખેલું છે કે તેમાં શું છે — અને મેન્ટર ચકાસણી પૂરી થતાં જ 2 મિનિટનો પરિચય પ્રકાશિત થાય છે.",
+   "home.projects.eyebrow": "પ્રોજેક્ટ-આધારિત શિક્ષણ",
+   "home.projects.title": "ફક્ત શીખો નહીં. બનાવો.",
+   "home.projects.lead": "દરેક ટ્રેક એવી વસ્તુ પર પૂરો થાય છે જે અસ્તિત્વમાં હોય. DishaYaaN પ્રોજેક્ટનો આકાર આ છે: એક સમસ્યા, એક નિર્માણ, એક મેન્ટર અને એક પાઠ જે તમારી પાસે રહે.",
+   "home.journey.eyebrow": "DishaYaaN કેવી રીતે કામ કરે છે",
+   "home.journey.title": "છ પગલાં, દરેક વખતે આ જ ક્રમમાં.",
+   "home.journey.lead": "કોઈ વિદ્યાર્થીને સીધો સામગ્રીમાં મૂકવામાં નથી આવતો. આ ક્રમ જ ઉત્પાદન છે.",
+   "home.parents.eyebrow": "વાલીઓનો અનુભવ",
+   "home.parents.title": "વાલીઓને અંદાજો ન લગાવવો પડે કે બાળક શું શીખી રહ્યું છે.",
+   "home.parents.lead": "તમારા બાળક જે ચિત્ર જુએ છે તે જ તમે જુઓ છો: શું હાજર રહ્યું, શું બની રહ્યું છે, મેન્ટરે શું જોયું અને આગળ શું છે.",
+   "home.partners.eyebrow": "સંસ્થાઓ સાથે સહયોગ",
+   "home.partners.title": "શાળાઓ, કોલેજો અને કોચિંગ સેન્ટરો — જે સ્તર તમારી પાસે નથી, તે મળીને બનાવીએ.",
+   "home.partners.lead": "DishaYaaN તમારી સંસ્થા સાથે ચાલે છે: મેન્ટર, લેબ અને ભવિષ્ય-તૈયારીના માર્ગો અમે લાવીએ છીએ, શૈક્ષણિક મજબૂતી તમારી રહે છે.",
+   "home.voices.eyebrow": "વિશ્વાસનું પુરાવું",
+   "home.voices.title": "નકલી પુરાવા દેખાડવા કરતાં કંઈ ન દેખાડવું સારું.",
+   "home.voices.lead": "DishaYaaNનો પ્રથમ બેચ ચાલી રહ્યો છે. સાચા અને સંમતિવાળા અવાજો મળતાં જ આ જગ્યાઓ ભરાઈ જશે.",
+   "home.faq.eyebrow": "પ્રશ્નો",
+   "home.faq.title": "સીધા જવાબ.",
+   "home.faq.lead": "તમારો પ્રશ્ન અહીં ન હોય તો DishaYaaN AI ને અથવા સીધા કોઈ મેન્ટરને પૂછો.",
+   "home.final.eyebrow": "તમારું આગલું પગલું",
+   "home.final.title": "તમારું આગલું પગલું અહીંથી શરૂ થઈ શકે છે.",
+   "home.final.lead": "બે મિનિટમાં જણાવો કે તમને શું જોઈએ. અથવા ફોર્મ છોડીને તમારા રસના ક્ષેત્રમાં કામ કરતા મેન્ટર સાથે મફત વાત કરો.",
+   "home.final.connect": "મેન્ટર સાથે જોડાઓ",
+   "home.final.compare": "પ્લાન સરખાવો",
+   "home.final.pathfinder": "પાથ ફાઇન્ડર ચલાવો",
+   "home.final.aside": "સંપર્ક કર્યા પછી શું થાય છે",
+   "home.final.step1": "તમે મોકલ્યું છે તે અમે વાંચીએ છીએ — માણસ, ઓટો-રિપ્લાઈ નહીં.",
+   "home.final.step2": "તમારા ક્ષેત્રના મેન્ટર એક દિવસમાં WhatsApp પર સંપર્ક કરે છે.",
+   "home.final.step3": "કોઈપણ ચુકવણી પહેલાં 20 મિનિટની મફત વાત થાય છે.",
+   "home.final.step4": "DishaYaaN તમારા માટે યોગ્ય ન હોય તો અમે સ્પષ્ટ કહીશું.",
+   "home.demand.eyebrow": "તમને શું જોઈએ તે જણાવો",
+   "home.demand.title": "અમે DishaYaaN વિદ્યાર્થીઓ અને વાલીઓની આસપાસ બનાવી રહ્યા છીએ — અનુમાનોની આસપાસ નહીં.",
+   "home.demand.lead": "અહીંનો દરેક જવાબ નક્કી કરે છે કે આગળ શું બનશે: કયા કાર્યક્રમો હશે, વિશ્વાસ કઈ રીતે બને છે અને વાલીઓ ખરેખર શું જોવા માંગે છે.",
+   "home.ai.eyebrow": "DishaYaaN AI",
+   "home.ai.title": "આગળ શું છે તેની તમારી પહેલી માર્ગદર્શિકા.",
+   "home.ai.lead": "ક્ષેત્રો, પ્લાન અને માર્ગો શોધવા માટે દસ મફત પ્રશ્નો. DishaYaaN AI તમારા ધોરણ અને રસ વિશે પૂછે છે જેથી જવાબો ઉપયોગી બને — અને દરેક વાતચીત અંતે માણસ સાથે વાત કરવાનો વિકલ્પ આપે છે."
+  }
+ },
+ "languages": [
+  {
+   "code": "en",
+   "name": "English",
+   "native": "English"
+  },
+  {
+   "code": "hi",
+   "name": "Hindi",
+   "native": "हिन्दी"
+  },
+  {
+   "code": "bn",
+   "name": "Bengali",
+   "native": "বাংলা"
+  },
+  {
+   "code": "or",
+   "name": "Odia",
+   "native": "ଓଡ଼ିଆ"
+  },
+  {
+   "code": "gu",
+   "name": "Gujarati",
+   "native": "ગુજરાતી"
+  }
+ ],
+ "_readme": {
+  "purpose": "Verbatim content source extracted from DishaYaaN-premium-Netlify-upload-v2.zip. The rebuild must reuse this text unchanged; only layout, navigation, visuals and motion change.",
+  "sections": {
+   "i18n": "Full UI dictionaries for en, hi, bn, or, gu. Keep all five languages; add new keys for new nav labels/page headers in all five (English first, then translate).",
+   "tracks / programmes / exam_pathways / plans / mentor_seats / faq / project_examples / institution_types / journey_steps / voices_placeholders": "Domain data - render as-is.",
+   "page_copy": "Copy that was hard-coded inside page components (About, Home audience cards, Parent preview, AI section, Path Finder, Book, Community, Partners, Plans)."
+  }
+ },
+ "page_copy": {
+  "home_audience": {
+   "student": {
+    "title": "Student",
+    "badge": "Class 6–12",
+    "body": "Explore what excites you. Build what you imagine. Discover where it can take you — robotics, drones, AI, machine learning, markets, research and more.",
+    "cta_primary": "Explore as a Student",
+    "cta_secondary": "See the catalogue",
+    "mentor_link": "Not sure where to start? Talk to a mentor"
+   },
+   "parent": {
+    "title": "Parent",
+    "badge": "Progress visible",
+    "body": "Understand your child's interests, strengths and possible pathways — and see what actually happens after school hours.",
+    "cta_primary": "Explore as a Parent",
+    "cta_secondary": "See plans & fees",
+    "mentor_link": "Ask a mentor what suits my child"
+   }
+  },
+  "home_catalogue_tabs": [
+   "1 · Explore the future",
+   "2 · Prepare for your goal",
+   "3 · Find your direction"
+  ],
+  "catalogue_notes": {
+   "no_rank_claims": "We do not publish rank claims, selection counts or success percentages. When a cohort completes, real numbers with methodology will appear here — not before.",
+   "pathfinder_card": {
+    "label": "Path Finder",
+    "title": "Not sure which layer fits?",
+    "body": "Answer eleven short questions and get an exploration profile with areas worth trying — then take it to a mentor.",
+    "cta": "Find your path"
+   },
+   "open_full": "Open the full catalogue",
+   "shortlist_cta": "Ask a mentor to shortlist for me"
+  },
+  "track_card_labels": {
+   "skills": "Skills you build",
+   "projects": "Projects",
+   "pathways": "Possible pathways",
+   "explore": "Explore this field",
+   "talk": "Talk to a {short} mentor",
+   "footnote": "Open for {classRange}. DishaYaaN guides exploration here — it does not predict a career for you. Take what you find to a human mentor before you decide anything."
+  },
+  "fields_section": {
+   "eyebrow": "Fields to explore",
+   "title": "Get to know the fields worth exploring.",
+   "lead": "Ten emerging fields, one honest starting point. Open a card to see the skills, projects and pathways behind it — then take it to a mentor.",
+   "featured_track_ids": [
+    "ai-ml",
+    "robotics",
+    "drones",
+    "computer-science",
+    "stock-market",
+    "biotechnology"
+   ]
+  },
+  "mentors_section_notes": {
+   "see_all": "See all mentor seats",
+   "disclaimer": "We publish no invented names, colleges, employers, ratings or years of experience. Until a mentor clears verification you see the seat, its coverage and its availability — nothing more."
+  },
+  "projects_section": {
+   "illustrative_badge": "Illustrative example — not a real student claim",
+   "labels": {
+    "problem": "Problem",
+    "solution": "Solution",
+    "mentor": "Mentor",
+    "learned": "What was learned"
+   }
+  },
+  "journey_last_badge": "Grow",
+  "parents_section": {
+   "bullets": [
+    "Progress and attendance, honestly recorded",
+    "Current project and the skills it is building",
+    "Mentor feedback after each review session",
+    "Next recommended step, written in plain language"
+   ],
+   "ctas": [
+    "Talk to a mentor about my child",
+    "See what plans include"
+   ],
+   "dashboard_preview": {
+    "title": "Parent dashboard preview",
+    "badge": "Prototype",
+    "metrics": [
+     {
+      "label": "Sessions attended",
+      "value": 92,
+      "note": "18 of 20 this term"
+     },
+     {
+      "label": "Project completion",
+      "value": 70,
+      "note": "Line follower in progress"
+     },
+     {
+      "label": "Skill growth (mentor rated)",
+      "value": 64,
+      "note": "Sensors, control logic"
+     },
+     {
+      "label": "Weekly plan adherence",
+      "value": 81,
+      "note": "Improving for 3 weeks"
+     }
+    ],
+    "mentor_note": {
+     "label": "Mentor note",
+     "text": "Debugging habits have improved. Ready for a vision sensor next."
+    },
+    "next_step": {
+     "label": "Next recommended step",
+     "text": "Extend the rover project and present at Demo Day."
+    },
+    "caption": "Illustrative layout. Live values come from the student's real attendance, project log and mentor reviews once enrolled."
+   }
+  },
+  "partners_section": {
+   "requirement_card": {
+    "label": "Requirement first",
+    "title": "Tell us what your students need. We build around that.",
+    "body": "The partnership form asks for the specific problem — number of students, weekly time available, equipment reality, reporting you need. We reply with a scoped pilot, not a brochure.",
+    "ctas": [
+     "Open the partnership form",
+     "See student requirement questions"
+    ]
+   }
+  },
+  "demand_section": {
+   "ai_button": "Ask DishaYaaN AI instead",
+   "privacy": {
+    "label": "Privacy",
+    "text": "We store what you submit so a real person can respond and so product decisions are grounded in evidence. We do not sell data, do not run third-party ad trackers, and you can ask us to delete your record at any time."
+   },
+   "form_source": "home_demand (the 'Tell us what you need' enquiry form component)"
+  },
+  "marquee_items": [
+   "Discover",
+   "Diagnose",
+   "Match",
+   "Learn",
+   "Build",
+   "Achieve",
+   "Robotics",
+   "Drones",
+   "AI & ML",
+   "Machine Learning",
+   "Stock Market",
+   "JEE · NEET · NDA · CS · CMA"
+  ],
+  "ai_section": {
+   "bullets": [
+    "Grounded in real DishaYaaN programmes, plans and mentor seats",
+    "Credits stored server-side — they survive a reload",
+    "Never invents prices, mentors or exam outcomes",
+    "Always hands off to a human mentor"
+   ],
+   "button": "Ask DishaYaaN AI"
+  },
+  "ai_assistant": {
+   "greeting": "Hi! I'm DishaYaaN AI. What would you like to explore?",
+   "tagline": "Your first guide to what comes next.",
+   "limit_notice": "10 free exploration questions. I will ask about your class and interests so my suggestions are useful, and I am never a replacement for a human mentor.",
+   "after_limit": "You've explored the first layer. Ready for deeper guidance?",
+   "footer": "Exploration only. Not a prediction of your future.",
+   "ctas": [
+    "Connect me with a mentor",
+    "Talk to a human mentor"
+   ]
+  },
+  "mentor_connect_modal": {
+   "title": "Connect with a mentor",
+   "subtitle": "Free 20-minute conversation. No fees, no pressure, no sales script.",
+   "auto_prompt_after_seconds": 120,
+   "auto_title": "Still exploring? Talk to a real mentor.",
+   "sent_title": "Request received.",
+   "sent_subtitle": "A mentor from the matching domain will reach out on WhatsApp.",
+   "fields": [
+    "Your name",
+    "WhatsApp number",
+    "Class",
+    "Domain",
+    "Language",
+    "Availability",
+    "Anything else (context)"
+   ]
+  },
+  "about_page": {
+   "hero": {
+    "eyebrow": "About DishaYaaN",
+    "title": "Why DishaYaaN exists.",
+    "lead": "Traditional academics matter — and they are not enough on their own. A student can score well and still have no idea what they enjoy, what they are good at, or what the world they are stepping into actually looks like.",
+    "gap_label": "The gap we work on",
+    "gap_list": [
+     "Exposure to emerging fields",
+     "A human who has done the work",
+     "Technology awareness that is current",
+     "Projects that prove capability",
+     "Career awareness beyond two or three famous jobs",
+     "Decision-making practice",
+     "Real-world context for what is studied"
+    ],
+    "gap_closing": "DishaYaaN exists to close that gap without pretending school does not matter."
+   },
+   "vision": {
+    "label": "Our vision",
+    "title": "Every student should be able to name three futures they would genuinely want — before they are asked to choose one.",
+    "body": "Not by predicting anything, and not by selling reassurance. By giving students real exposure, real mentors and real projects, then helping them build a plan they can defend."
+   },
+   "problem": {
+    "label": "The problem",
+    "paragraphs": [
+     "Most students in Class 6–12 receive two inputs: a syllabus and exam pressure. Exposure to technology, careers and research usually arrives either too late or only for students with well-connected families.",
+     "Meanwhile the fields that will shape their twenties — AI, machine learning, robotics, drones, biotech, financial markets — are either invisible in school or reduced to a single computer period."
+    ],
+    "emphasis": "The result is bright students choosing a path by elimination rather than by desire."
+   },
+   "approach": {
+    "eyebrow": "Our approach",
+    "title": "Discover. Learn. Build. Achieve.",
+    "lead": "Four verbs, in that order. Discovery before curriculum, projects before certificates, and a plan before any payment.",
+    "steps": [
+     {
+      "step": "Discover",
+      "body": "Interests, subjects and what you actually enjoy doing after school hours."
+     },
+     {
+      "step": "Learn",
+      "body": "A structured path with a mentor who reviews your week, not just your test score."
+     },
+     {
+      "step": "Build",
+      "body": "Something real in every track: a robot, a model, a drone mission, a research note, a portfolio."
+     },
+     {
+      "step": "Achieve",
+      "body": "Progress reviewed against your goal charter, with the roadmap updated as you grow."
+     }
+    ]
+   },
+   "philosophy": {
+    "eyebrow": "Our philosophy",
+    "title": "How we operate, stated plainly.",
+    "lead": "These are commitments, not slogans. They are the reason some sections of this site currently look empty — the real ones come later.",
+    "items": [
+     {
+      "title": "We do not invent proof",
+      "body": "No fake testimonials, no borrowed logos, no rank claims. Anything on this site is either true today or explicitly marked as a placeholder."
+     },
+     {
+      "title": "Mentors are people, not content",
+      "body": "A mentor's job is to look at your specific situation and tell you the truth, including when your current plan is wrong."
+     },
+     {
+      "title": "AI assists; humans decide",
+      "body": "DishaYaaN AI narrows the field quickly. A person then helps you choose a direction and stay with it."
+     },
+     {
+      "title": "Parents are partners",
+      "body": "A parent who can see the plan can support it. Visibility is a feature, not a privilege."
+     }
+    ]
+   },
+   "audiences": {
+    "eyebrow": "Three audiences",
+    "title": "Students, parents and mentors are treated as three different products.",
+    "items": [
+     {
+      "title": "How we think about students",
+      "body": "You are not a syllabus to be covered. You are someone with curiosity, limited time and real pressure from school. DishaYaaN tries to make exploration cheap — one hour a week that widens what you think is possible for yourself."
+     },
+     {
+      "title": "How we think about parents",
+      "body": "You deserve to know what happens after school hours without interrogating your child. You get the same roadmap, attendance and mentor notes they do, in plain language."
+     },
+     {
+      "title": "How we think about mentors",
+      "body": "Mentors are paid professionals with limited hours. We protect that time with clear formats, real context before each session and honest feedback channels."
+     }
+    ]
+   },
+   "campus": {
+    "eyebrow": "The future of learning",
+    "title": "The digital campus for the future.",
+    "body": "Students explore. Mentors guide. AI assists. Projects demonstrate. Parents understand. Careers become clearer. That is the whole architecture — and v1 is the first honest slice of it, built around the six domains students actually asked for: AI, machine learning, robotics, drone technology, computer science and financial markets.",
+    "ctas": [
+     "See the catalogue",
+     "Connect with a mentor"
+    ]
+   },
+   "founder_story": {
+    "label": "Founder story",
+    "body": "This section publishes when the founding team is ready to be named publicly, with their own words — not a marketing paragraph written for them. Nothing is written here on their behalf until then.",
+    "footnote": "Require further detail? Ask through the partnership or enquiry form and we will answer directly."
+   },
+   "marquee": "track short names + Mentorship, Projects, Parent visibility",
+   "seo": {
+    "title": "Why DishaYaaN exists",
+    "description": "DishaYaaN bridges the gap between academics and the real world for students of Class 6–12: exposure, mentorship, technology awareness, projects, career guidance and decision-making."
+   }
+  },
+  "catalog_page": {
+   "title": "Everything DishaYaaN runs, in one place.",
+   "lead": "Organised in three layers so you always know whether you are exploring, preparing for a goal, or working out what to aim at.",
+   "built_for": {
+    "title": "Built for Class 6–12.",
+    "body": "Exploration tracks start at Class 6, technology labs from Class 7–8, and exam pathways from Class 9 upwards. Every programme lists its sessions, projects and what you will be able to do at the end."
+   },
+   "ctas": [
+    "Get a shortlist from a mentor",
+    "Run Path Finder first"
+   ],
+   "filters": [
+    "All programmes",
+    "1 · Explore the future",
+    "2 · Prepare for a goal",
+    "3 · Find your direction"
+   ],
+   "search_placeholder": "Search programmes, skills…",
+   "empty": "Nothing matches that filter yet. Clear the search or ask a mentor what fits — we will tell you honestly if we do not run it.",
+   "exam_block": {
+    "eyebrow": "Exam preparation",
+    "title": "Prepare for what matters.",
+    "body": "No rank guarantees, no selection promises. What we offer is a plan, a mentor and evidence that you are on track."
+   },
+   "tracks_block": {
+    "eyebrow": "Exploration tracks",
+    "title": "What each field actually contains.",
+    "body": "Skills, projects and pathways for every domain — so 'I want to do AI' becomes a plan."
+   },
+   "seo": "The complete DishaYaaN catalogue: AI and machine learning, robotics, drone technology, computer science, stock market literacy and more — plus JEE, NEET, NDA, CS and CMA preparation pathways."
+  },
+  "programme_detail_labels": {
+   "sections": [
+    "What you will be able to do",
+    "Projects in this programme",
+    "Who would actually guide you.",
+    "Programmes that follow on from this one."
+   ],
+   "fee_note": "Mentor time, project reviews, materials and the parent view are included. Hardware is arranged at cost and quoted before you commit.",
+   "fee_unknown": "Confirmed on a call",
+   "refund": "Every fee is refundable within the first seven days.",
+   "no_rank": "We publish no rank claims, selection counts or success percentages for any examination.",
+   "ctas": [
+    "Book a free session",
+    "Talk to a mentor first",
+    "See every mentor seat"
+   ],
+   "back": "← Course & exam catalogue",
+   "not_found": {
+    "title": "That programme is not in the catalogue.",
+    "body": "Programmes are added and retired as the cohorts change. Browse what is running now.",
+    "cta": "Back to the catalogue"
+   }
+  },
+  "mentors_page": {
+   "title": "Find someone who understands your path.",
+   "lead": "Every entry below is a mentor seat in the DishaYaaN network: the domain it covers, what it helps with, and when it is available. Verified mentor profiles publish with a 2-minute introduction video.",
+   "search_placeholder": "Search mentor, skill or goal…",
+   "availability_filters": [
+    "Weekday mornings",
+    "Daily early mornings",
+    "Daily late evenings",
+    "Weekend mornings",
+    "Weekend afternoons",
+    "Weekend evenings"
+   ],
+   "empty": {
+    "title": "No seat matches those filters yet.",
+    "body": "Tell us what you need and we will either match you with a mentor in the network or be honest that we cannot cover it yet.",
+    "cta": "Request a mentor for my requirement"
+   },
+   "apply": {
+    "title": "Are you a professional who wants to mentor?",
+    "body": "DishaYaaN mentors commit to at least one hour a week, follow a structured review format, and get paid for their time. Verification includes an identity check, a domain conversation and two reference calls before your profile goes live.",
+    "ctas": [
+     "Apply to mentor",
+     "Talk to the mentor team"
+    ]
+   },
+   "seat_status_label": "Profile in verification",
+   "detail": {
+    "helps_with": "What this seat helps with",
+    "video": "Meet your mentor — 2 min intro (publishes as soon as this mentor is verified)",
+    "booking_note": "Booking opens with the first cohort. Leave your requirement now and we will confirm a slot in this domain, in your language, at a time that works.",
+    "reviews_note": "Reviews appear here only after real sessions, from students and parents who consent to being quoted. We do not seed this section.",
+    "more": "Keep looking until the fit is right.",
+    "not_found": "That mentor seat does not exist. Mentor seats are added and retired as the network changes. Browse the current roster instead."
+   }
+  },
+  "plans_page": {
+   "hero": {
+    "title": "Premium guidance, priced without games.",
+    "lead": "One fee covers the mentor time, the AI credits, the projects and the parent view. No hidden material charges. Cancel or switch whenever the plan stops fitting."
+   },
+   "pay_note": {
+    "title": "Pay online in seconds",
+    "body": "Card, UPI and netbanking are processed by our payment gateway. You receive a receipt immediately and the first seven days are fully refundable.",
+    "link": "ask a mentor before paying"
+   },
+   "institution_quote": {
+    "title": "Custom quotation for schools, colleges and centres",
+    "body": "Cohort pricing depends on group size, weekly hours, equipment and the reporting your team needs. We scope a paid pilot before any annual commitment.",
+    "cta": "Request a quotation",
+    "note": "No prices invented here — you get a written quote with what is included."
+   },
+   "every_plan_includes": {
+    "title": "What every plan includes",
+    "items": [
+     {
+      "title": "Mentor sessions",
+      "body": "1–6 live mentor sessions per month, matched by domain, language and schedule."
+     },
+     {
+      "title": "AI credits",
+      "body": "100–500 exploration credits per month, stored server-side."
+     },
+     {
+      "title": "Projects",
+      "body": "Project briefs with mentor review; two portfolio projects per term on Specialized."
+     },
+     {
+      "title": "Progress tracking",
+      "body": "Weekly plan adherence, skills gained and mentor notes."
+     },
+     {
+      "title": "Parent visibility",
+      "body": "A parent view of attendance, projects and the next recommended step."
+     },
+     {
+      "title": "Materials",
+      "body": "Digital materials included. Hardware kits are arranged separately at cost."
+     }
+    ]
+   },
+   "billing_faq": {
+    "eyebrow": "Billing questions",
+    "title": "No fine print traps.",
+    "lead": "If something here is unclear, ask a mentor or the AI before paying.",
+    "items": [
+     {
+      "q": "How does billing work?",
+      "a": "Plans are billed monthly, except the Goal Sprint which is a single one-time payment for the 12-week project. Nothing renews silently without your knowledge — we tell you before any renewal."
+     },
+     {
+      "q": "Is a refund possible?",
+      "a": "Yes. Tell us within the first seven days of a period and we refund that period in full. After that we will still fix a genuine mismatch instead of holding a fee that is not earning its place."
+     },
+     {
+      "q": "Can we switch plans?",
+      "a": "Any time. Move up and we charge the difference for the remainder of the period; move down and the unused amount carries to the next period."
+     },
+     {
+      "q": "Are hardware kits included?",
+      "a": "Digital content, mentor time and reviews are included. For robotics and drones the kit is arranged at cost, and we tell you the exact amount before you order anything."
+     }
+    ]
+   },
+   "checkout": {
+    "title": "Start a plan",
+    "fields": [
+     "Student name",
+     "WhatsApp number",
+     "Email for the receipt (optional)"
+    ],
+    "security": "Payments are created server-side and verified with a signature check. Card details never touch DishaYaaN's servers.",
+    "fallback": "Online card checkout is not live yet, so we recorded your request against the plan instead of showing a fake success screen. A mentor will confirm the payment link on WhatsApp within one working day.",
+    "failure": "Something went wrong.",
+    "verify_fail": "We could not verify that payment. Nothing will be charged twice — send us a message and we will fix it manually."
+   }
+  },
+  "pathfinder_page": {
+   "hero": {
+    "title": "Not sure where to start? Find out where your interests point.",
+    "lead": "Eleven questions about what you actually enjoy — not a test, and definitely not a prediction of your future. It tells you which areas are worth trying next, and gives a mentor something concrete to work with."
+   },
+   "disclaimer": {
+    "title": "This is an exploration tool.",
+    "body": "No result here decides your career, your stream or your worth. Treat it as a starting conversation, then take it to a mentor who will tell you what it does and does not mean."
+   },
+   "hint": "Answer based on what you enjoy, not what looks impressive.",
+   "last_few": "Last few — the result appears next.",
+   "start": "Start the questions",
+   "result": {
+    "title": "Your exploration profile",
+    "subtitle": "Where your interests point today",
+    "sub": "Relative strengths, not scores. These change as you try things.",
+    "saving": "Saving this result so your mentor can see it…",
+    "areas": {
+     "title": "Areas you may want to explore",
+     "body": "Start with one. Trying something for four weeks teaches you more than deciding in your head for four months."
+    },
+    "second_opinion": {
+     "title": "Want a real second opinion?",
+     "body": "A mentor will read this profile with you and be honest about what it does and does not suggest. Free, twenty minutes, no sales script.",
+     "cta": "Discuss my results with a mentor"
+    }
+   },
+   "profile_axes": [
+    "Technology & AI",
+    "Problem solving",
+    "Research & science",
+    "Engineering & making",
+    "Markets & money",
+    "People & business"
+   ],
+   "questions": [
+    {
+     "q": "Which class are you in?",
+     "note": "This only sets the level we suggest — it changes nothing else.",
+     "options": "Class 6 … Class 12, Just finished Class 12"
+    },
+    {
+     "q": "Which subjects do you actually enjoy?",
+     "options": [
+      "Maths and physics",
+      "Biology and chemistry",
+      "Commerce, economics and accounts",
+      "Computers and technology",
+      "Languages, history and social studies"
+     ]
+    },
+    {
+     "q": "What do you enjoy doing after school?",
+     "options": [
+      "Taking things apart and building them",
+      "Reading about science or watching documentaries",
+      "Coding, gaming or exploring software",
+      "Tracking business, money or investing"
+     ]
+    },
+    {
+     "q": "Which technology excites you most?",
+     "options": [
+      "Artificial intelligence and machine learning",
+      "Robotics and machines that move",
+      "Drones and flight systems",
+      "Websites, apps and software",
+      "Honestly, none of them yet"
+     ]
+    },
+    {
+     "q": "How do you prefer to solve a problem?",
+     "options": [
+      "Work through puzzles and numbers",
+      "Try it hands-on and iterate",
+      "Read, research and then decide",
+      "Look at data and analysis",
+      "Talk it through with people"
+     ]
+    },
+    {
+     "q": "How interested are you in biology and life sciences?",
+     "options": [
+      "Very interested",
+      "Somewhat interested"
+     ]
+    },
+    {
+     "q": "How interested are you in computers and programming?",
+     "options": [
+      "Very interested",
+      "Somewhat interested"
+     ]
+    },
+    {
+     "q": "How interested are you in money, business and markets?",
+     "options": [
+      "Very interested",
+      "Somewhat interested"
+     ]
+    },
+    {
+     "q": "Which of these sounds most like you?",
+     "options": [
+      "Building machines or systems that work",
+      "Discovering something no one knew",
+      "Running my own company or investing",
+      "I genuinely don't know yet"
+     ]
+    },
+    {
+     "q": "How do you feel about maths?",
+     "options": [
+      "I enjoy it and want more of it",
+      "I'm okay with it",
+      "I avoid it when I can"
+     ]
+    },
+    {
+     "q": "If you had a free month, what would you build first?",
+     "options": [
+      "A robot that does something useful",
+      "An AI app that solves a small problem",
+      "A science experiment or study",
+      "A small business or a trading portfolio",
+      "A club, event or community"
+     ]
+    }
+   ],
+   "note": "Where the original lists only some options (e.g. 'Very / Somewhat / Not really'), keep the original scale from the source app."
+  },
+  "book_page": {
+   "title": "Talk to a mentor before you commit to anything.",
+   "eyebrow": "One-to-one counselling",
+   "lead": "Pick a date, a time slot and the domain you care about. A DishaYaaN mentor calls you, listens to where you actually are, and leaves you with a written next step. The first session is free.",
+   "trust_chips": [
+    "Student, parent or teacher",
+    "No payment today",
+    "English or your regional language"
+   ],
+   "booker_roles": [
+    "I am the student",
+    "I want to talk about my own plan",
+    "I want clarity for my child",
+    "I am a teacher or counsellor",
+    "I refer students to DishaYaaN"
+   ],
+   "slots": [
+    "Saturday 10:00 – 11:00",
+    "Saturday 11:00 – 12:00",
+    "Sunday 10:00 – 11:00"
+   ],
+   "modes": [
+    "Online",
+    "In person at a partner centre"
+   ],
+   "domains_extra": [
+    "Exam strategy (JEE / NEET / NDA)",
+    "Commerce & professional courses (CS / CMA)",
+    "Not sure yet — help me choose"
+   ],
+   "prefill_note": "We have pre-filled what we could. Change anything that is wrong — this is your session.",
+   "fields": [
+    "Who is this session for?",
+    "Who should we ask for?",
+    "WhatsApp number — We confirm the slot here and nowhere else.",
+    "Email (optional)",
+    "What should the session cover?",
+    "Preferred mentor seat (optional) — Seats are matched by domain and language. Profiles publish as verification completes, so your match may differ from the seat you pick.",
+    "One honest sentence is worth more than a paragraph. Example: I am in Class 10, I like robots but I do not know if I should pick science, and I need a study routine that survives school hours.",
+    "When should we call? Slots are confirmed by a human, so treat this as a preference. Times are shown in Indian Standard Time."
+   ],
+   "submit": "Request this session",
+   "after": {
+    "title": "Your slot is requested.",
+    "body": "Nothing has been charged. A human confirms your slot on WhatsApp — usually within one working day — and sends the joining link or the centre address.",
+    "reschedule": "Keep the reference handy. If you need to move the session, reply to our WhatsApp message with it and we will reschedule at no cost.",
+    "ctas": [
+     "Open my workspace",
+     "See plans & fees",
+     "Book another session"
+    ]
+   },
+   "what_next": {
+    "title": "What happens next",
+    "steps": [
+     "You request a slot — no payment, no card.",
+     "A human confirms the time on WhatsApp within one working day.",
+     "You get a video link or a centre address and a short pre-call checklist.",
+     "After the session you leave with one written next step, and the choice to continue or stop."
+    ],
+    "chips": [
+     "No invented mentors, ranks or results",
+     "Your data is used to match you, nothing else"
+    ]
+   },
+   "not_ready": {
+    "title": "Not ready to book?",
+    "body": "Ask a question first, or run the Path Finder and bring the result into the call.",
+    "ctas": [
+     "Ask a mentor a question",
+     "Run the Path Finder",
+     "Compare plans & fees"
+    ]
+   },
+   "institutions": {
+    "title": "For institutions",
+    "body": "Booking for a whole cohort? Our team runs group counselling blocks for schools, coaching centres and NGOs.",
+    "cta": "Plan a cohort programme"
+   }
+  },
+  "community_page": {
+   "title": "Show the work. Ask the awkward question.",
+   "eyebrow": "Student community",
+   "lead": "This is where students publish their own projects, upload build logs and ask questions that do not fit in a classroom. Mentors read it and answer here, in public, so the next student finds it too.",
+   "rules": [
+    "Publish only your own work — credit anyone who helped.",
+    "No personal contact details, no school addresses, no photos of other people.",
+    "Critique the project, never the person. Mentors apply the same rule.",
+    "Uploads stay under 6 MB and stay on your own storage record."
+   ],
+   "search_placeholder": "Search posts, tags or authors",
+   "empty": "The feed is empty — be the first to publish.",
+   "empty_hint": "Your project does not have to be finished. A half-built rover with an honest write-up teaches more than a perfect screenshot.",
+   "composer": {
+    "title": "Publish your work",
+    "label": "What did you build or learn?",
+    "tags_hint": "Separate up to six tags with commas.",
+    "link_label": "Project link (optional)",
+    "file_label": "Photo, PDF, report or zip — up to 6 MB",
+    "cta": "Publish to community",
+    "note": "Your post is public and credited to the display name above. Never upload anything private, and never someone else’s work."
+   },
+   "signin": {
+    "title": "Sign in to publish",
+    "body": "Posting, uploading files and commenting need an account. Reading never does.",
+    "hint": "It takes a one-time email code — no password, no card.",
+    "cta": "Sign in or create an account"
+   },
+   "where_to_start": {
+    "title": "Where to start",
+    "items": [
+     "“What should I build in Class 8?” — a perfectly good first post.",
+     "Share one photo of the wiring, one paragraph on what failed.",
+     "Tag it honestly and a mentor covering that domain will answer."
+    ],
+    "cta": "Browse the catalogue"
+   }
+  },
+  "partners_page": {
+   "hero": {
+    "eyebrow": "Institution collaboration",
+    "title": "We build alongside institutions, not against them.",
+    "lead": "DishaYaaN is not trying to replace your faculty or your pedagogy. We add the layer that is hardest to staff internally: current technology exposure, industry mentors, project supervision and career guidance."
+   },
+   "who": {
+    "eyebrow": "Who we work with",
+    "title": "Four kinds of collaboration.",
+    "note": "Rendered from institution_types."
+   },
+   "delivery": {
+    "eyebrow": "Delivery models",
+    "title": "Three ways to start, depending on what you already have.",
+    "models": [
+     {
+      "title": "Timetable lab slot",
+      "body": "One slot a week on your timetable. DishaYaaN supplies the mentor, the curriculum and the equipment plan; your faculty supervise."
+     },
+     {
+      "title": "Mentor pool / project reviews",
+      "body": "You already teach the subject — we provide domain mentors for project reviews, career sessions and doubt clinics."
+     },
+     {
+      "title": "Future-readiness programme",
+      "body": "A term-long programme covering exploration, projects, career sessions and parent orientation, with reporting for your team."
+     }
+    ],
+    "note": "Titles for the first two are inferred from their body text; confirm against the original UI if exact wording matters."
+   },
+   "need_from_you": {
+    "title": "What we need from you",
+    "body": "Not a signed contract — a requirement. Tell us the specific problem you face with your students and we will respond with a scoped plan, the mentor profile that fits, the reporting format and a cost. A pilot comes before any annual commitment."
+   },
+   "requirement_form": {
+    "eyebrow": "Student requirement enquiry",
+    "title": "Tell us what your students need.",
+    "lead": "This form exists for our improvement: the requirements we receive decide what DishaYaaN builds next. Nothing here is used for marketing.",
+    "ask_heading": "We will ask you",
+    "ask_hint": "You do not need answers to all of these to submit. Send what you know and we will ask the rest on a call.",
+    "questions": [
+     "How many students, and which classes, would take part?",
+     "How many hours per week can your timetable realistically give?",
+     "What equipment do students already have at home or in the lab?",
+     "Which domains matter most to your students right now?",
+     "What language should sessions be delivered in?",
+     "What do your parents ask about most often?",
+     "What reporting does your management need each term?",
+     "Is there a budget cycle we should fit into?",
+     "Would you start with a paid pilot, or a single demonstration session?",
+     "Who is accountable on your side for attendance and outcomes?"
+    ]
+   }
+  },
+  "dashboard_page": {
+   "intro": "Your DishaYaaN workspace: goal charter, exploration profile, counselling sessions, published work and AI credits in one place.",
+   "blocks": [
+    "Work you have published — Posts, build logs and questions you shared with the community.",
+    "Suggested next areas — Based on your Path Finder result. Re-run it whenever your interests shift.",
+    "Run the Path Finder to replace these defaults with your own profile.",
+    "fields, one hour a week — You do not need to pick a career today. You need to try one thing long enough to know whether you like it.",
+    "Ask DishaYaaN AI from the corner button any time. It always offers a human when it reaches its limit.",
+    "Coming with the first cohort — Attendance, project log, mentor feedback and the parent view. Your workspace fills up as soon as your mentor match is confirmed: weekly plan, session notes, project reviews and the same progress board your parents see."
+   ]
+  },
+  "not_found": {
+   "title": "This page does not exist — but your future still does.",
+   "body": "The link may be old or mistyped. Here is where most students go next.",
+   "cta": "Course & exam catalogue"
+  },
+  "admin_page": "Operations console (operators only): session bookings, student enquiries, institutional requests, payments, enrolments and community moderation. Keep functionality as-is; restyle only.",
+  "seo_home": {
+   "title": "DishaYaaN — mentorship, technology and career guidance for Class 6–12",
+   "description": "DishaYaaN helps students of Class 6–12 explore emerging technology, prepare for JEE, NEET, NDA, CS and CMA, and build real projects with human mentors. Your future is bigger than your syllabus.",
+   "keywords": [
+    "student mentorship India",
+    "career guidance Class 6-12",
+    "robotics for students",
+    "drone technology course",
+    "AI and machine learning for school students",
+    "stock market for students",
+    "JEE guidance",
+    "NEET guidance",
+    "NDA preparation"
+   ]
+  },
+  "footer_columns_old": "See i18n footer.* keys; link groups: Explore, Students, Parents, Institutions, Company, Legal."
+ },
+ "technical_inventory": {
+  "stack": "Vite + React 18 SPA, React Router, Tailwind (v4-style @theme tokens), Radix UI primitives (tabs, accordion, dialog, select, progress), framer-motion, three.js (lazy-loaded), recharts, Convex backend (mentorRequests, bookings, partnerEnquiries, payments, community posts, auth with email OTP), Razorpay checkout, i18n in 5 languages.",
+  "routes_old": [
+   "/",
+   "/about",
+   "/plans",
+   "/mentors",
+   "/mentor/:slug",
+   "/catalog",
+   "/program/:slug",
+   "/pathfinder",
+   "/partners",
+   "/book",
+   "/community",
+   "/admin",
+   "/dashboard",
+   "/auth",
+   "*"
+  ],
+  "old_fonts": {
+   "display": "Sora",
+   "sans": "DM Sans",
+   "mono": "JetBrains Mono"
+  },
+  "old_theme": "Dark navy (#080f20) neo-brutalist (2px ink borders, hard offset shadows). To be replaced by a light theme.",
+  "deploy": "Netlify; _redirects '/* /index.html 200'; manifest.webmanifest background/theme colour must change from #080f20 to the new light colour.",
+  "behaviours_to_preserve": [
+   "Auto mentor-connect modal after 120 s once per session",
+   "Floating AI assistant with 10 free questions, hands off to human",
+   "Hover-reveal 3D network of tracks with 2D fallback on mobile/low-power/no-WebGL",
+   "prefers-reduced-motion respected",
+   "Mobile sticky bottom bar: Ask AI + Connect with mentor",
+   "Analytics events (hero_cta_click, track_explore, etc.)",
+   "SEO per page via use-seo"
+  ]
+ }
+}
