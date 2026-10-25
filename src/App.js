@@ -11,6 +11,9 @@ import PathFinder from "./components/pathfinder/PathFinder"
 import Partners from "./components/partners/Partners"
 import Book from "./components/book/Book"
 import Community from "./components/community/Community"
+import Account from "./components/account/Account"
+import Dashboard from "./components/account/Dashboard"
+import Admin from "./components/admin/Admin"
 import NotFound from "./components/common/NotFound"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
@@ -19,10 +22,14 @@ import AIAssistant from "./components/common/AIAssistant"
 import StickyBar from "./components/common/StickyBar"
 import { I18nProvider } from "./i18n"
 import { UIProvider } from "./ui"
+import { AuthProvider } from "./lib/auth"
+import { CatalogProvider } from "./lib/catalog"
 
 function App() {
   return (
     <I18nProvider>
+      <AuthProvider>
+      <CatalogProvider>
       <UIProvider>
         <Router>
           <Header />
@@ -39,6 +46,10 @@ function App() {
               <Route exact path='/partners' component={Partners} />
               <Route exact path='/book' component={Book} />
               <Route exact path='/community' component={Community} />
+              <Route exact path='/account' component={Account} />
+              <Route exact path='/auth' component={Account} />
+              <Route exact path='/dashboard' component={Dashboard} />
+              <Route exact path='/admin' component={Admin} />
               <Route component={NotFound} />
             </Switch>
           </main>
@@ -48,6 +59,8 @@ function App() {
           <StickyBar />
         </Router>
       </UIProvider>
+      </CatalogProvider>
+      </AuthProvider>
     </I18nProvider>
   )
 }

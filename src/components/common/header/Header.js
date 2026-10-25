@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { Link, NavLink } from "../../../router"
 import { useI18n, languages } from "../../../i18n"
 import { useUI } from "../../../ui"
+import { useAuth } from "../../../lib/auth"
 import { FaBars, FaTimes, FaRobot, FaChevronDown } from "react-icons/fa"
 
 export const Logo = ({ light }) => (
@@ -16,6 +17,7 @@ export const Logo = ({ light }) => (
 export default function Header() {
   const { t, lang, setLang } = useI18n()
   const { openAI, openMentor } = useUI()
+  const auth = useAuth()
   const [open, setOpen] = useState(false)
   const [more, setMore] = useState(false)
   const primary = [
@@ -30,7 +32,10 @@ export default function Header() {
     ["/book", t("nav.bookSession")],
     ["/pathfinder", t("nav.pathfinder")],
     ["/partners", t("nav.partners")],
+    ["/account", t("nav.account")],
+    ["/dashboard", t("nav.dashboard")],
   ]
+  if (auth.isAdmin) secondary.push(["/admin", t("nav.admin") || "Admin"])
   const close = () => {
     setOpen(false)
     setMore(false)
@@ -87,6 +92,11 @@ export default function Header() {
             </ul>
           </nav>
           <div className="head-cta">
+            {auth.user ? (
+              <Link to="/dashboard" className="btn-link outline-btn small">{t("nav.dashboard")}</Link>
+            ) : (
+              <Link to="/account" className="btn-link outline-btn small">{t("nav.login")}</Link>
+            )}
             <button className="outline-btn small" onClick={openAI}>
               <FaRobot /> {t("nav.askAiShort")}
             </button>

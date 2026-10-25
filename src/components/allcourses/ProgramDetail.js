@@ -6,15 +6,20 @@ import { ProgrammeCard, MentorCard } from "../cards"
 import { useUI } from "../../ui"
 import { C, P, fmtINR, accentOf, trackById, kindLabel } from "../../content"
 import { useSeo } from "../../forms"
+import { useCatalog } from "../../lib/catalog"
+import { Notice } from "../common/Notice"
 import { FaCheckCircle, FaClock, FaCalendarAlt, FaLaptop } from "react-icons/fa"
 
 const examMentor = { JEE: "physics-jee-mentor", NEET: "neet-strategy-mentor", NDA: "nda-defence-mentor", CS: "commerce-professional-mentor", CMA: "commerce-professional-mentor" }
 
 export default function ProgramDetail({ match }) {
   const { openMentor } = useUI()
+  const cat = useCatalog()
   const L = P.programme_detail_labels
-  const p = C.programmes.find((x) => x.slug === match.params.slug)
+  const p = cat.programmes.find((x) => x.slug === match.params.slug)
   useSeo(p ? p.title : L.not_found.title, p && p.summary)
+  if (cat.loading) return <section className="padding"><div className="container">Loading programme…</div></section>
+  if (cat.error) return <section className="padding"><div className="container"><Notice kind="error">{cat.error}</Notice></div></section>
   if (!p)
     return (
       <section className="padding"><div className="container center">
@@ -22,8 +27,8 @@ export default function ProgramDetail({ match }) {
         <Link to="/catalog" className="btn-link primary-btn">{L.not_found.cta}</Link>
       </div></section>
     )
-  const mentors = C.mentor_seats.filter((m) => (p.trackId ? m.domain === p.trackId : m.slug === examMentor[p.examCode]))
-  const related = C.programmes.filter((x) => x.id !== p.id && (p.trackId ? x.trackId === p.trackId : x.kind === p.kind)).slice(0, 3)
+  const mentors = cat.mentors.filter((m) => (p.trackId ? m.domain === p.trackId : m.slug === examMentor[p.examCode]))
+  const related = cat.programmes.filter((x) => x.id !== p.id && (p.trackId ? x.trackId === p.trackId : x.kind === p.kind)).slice(0, 3)
   const track = p.trackId && trackById(p.trackId)
   return (
     <>

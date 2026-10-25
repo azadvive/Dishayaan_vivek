@@ -3,27 +3,36 @@ import { Link } from "../../router"
 import PageHero from "../common/PageHero"
 import Heading from "../common/Heading"
 import { ProgrammeCard } from "../cards"
-import { DOMAINS, programmeFor, examFor } from "../../data/domains"
+import { DOMAINS, examFor } from "../../data/domains"
 import { useUI } from "../../ui"
 import { C, P, accentOf } from "../../content"
 import { useSeo } from "../../forms"
+import { useCatalog } from "../../lib/catalog"
+import { Notice } from "../common/Notice"
 import { FaSearch } from "react-icons/fa"
 
 export default function CourseHome() {
   const { openMentor } = useUI()
+  const cat = useCatalog()
   const K = P.catalog_page
   useSeo(K.title, K.seo)
   const [f, setF] = useState(0)
   const [q, setQ] = useState("")
+  const [page, setPage] = useState(1)
   const kinds = [null, "future", "goal", "direction"]
-  // one card per domain (same order as the home page), plus the general "direction" programme
-  const base = [...DOMAINS.map(programmeFor).filter(Boolean), ...C.programmes.filter((p) => p.kind === "direction")]
+  const programmeFor = (d) => {
+    const [kind, val] = d.key.split(":")
+    return cat.programmes.find((p) => (kind === "track" ? p.trackId === val : p.examCode === val))
+  }
+  const base = [...DOMAINS.map(programmeFor).filter(Boolean), ...cat.programmes.filter((p) => p.kind === "direction")]
   const exams = DOMAINS.map(examFor).filter(Boolean)
   const list = base.filter((p) => {
     if (kinds[f] && p.kind !== kinds[f]) return false
     const hay = [p.title, p.summary, ...(p.skills || []), ...(p.projects || [])].join(" ").toLowerCase()
     return hay.includes(q.toLowerCase())
   })
+  const pageSize = 12
+  const shown = list.slice(0, page * pageSize)
   return (
     <>
       <PageHero crumb={K.filters[0].split(" ")[0] && "Catalogue"} title={K.title} lead={K.lead}>
@@ -44,10 +53,18 @@ export default function CourseHome() {
             </div>
             <label className="search"><FaSearch /><input value={q} onChange={(e) => setQ(e.target.value)} placeholder={K.search_placeholder} aria-label={K.search_placeholder} /></label>
           </div>
-          {list.length ? (
-            <div className="grid-3">{list.map((p) => <ProgrammeCard key={p.id} p={p} />)}</div>
+          {cat.loading && <p className="muted">Loading programmes…</p>}
+          {cat.error && <Notice kind="error">Could not load the catalogue from the database. {cat.error}</Notice>}
+          {cat.source === "content-fallback" && !cat.error && (
+            <p className="note-line">Showing published website content. Database records will replace this list after you run the seed against Supabase.</p>
+          )}
+          {shown.length ? (
+            <div className="grid-3">{shown.map((p) => <ProgrammeCard key={p.id} p={p} />)}</div>
           ) : (
-            <div className="empty card shadow"><p>{K.empty}</p></div>
+            !cat.loading && <div className="empty card shadow"><p>{K.empty}</p></div>
+          )}
+          {shown.length < list.length && (
+            <div className="center"><button className="outline-btn auto" onClick={() => setPage(page + 1)}>Load more</button></div>
           )}
           <p className="note-line">{P.catalogue_notes.no_rank_claims}</p>
         </div>

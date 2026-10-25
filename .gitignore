@@ -1,0 +1,11 @@
+node_modules/
+build/
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log
+.vscode/
+.idea/
+netlify/functions/.netlify
+.supabase/
