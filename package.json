@@ -6,11 +6,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "@supabase/supabase-js": "^2.45.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "server:seed": "npm --prefix server run seed"
   },
   "eslintConfig": {
     "extends": [
